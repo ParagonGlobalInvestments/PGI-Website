@@ -1,0 +1,127 @@
+/* body {
+    background: #111;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00182a;  
+	/* background: -webkit-linear-gradient(to right, #00182a, #16222A);   */
+	/* background: linear-gradient(to right, #00182a, #16222A);  */
+}
+
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color:#eef1f2;
+    font-size: 5vw;
+    -webkit-text-stroke: 1px black;
+    color:#eef1f2;
+    text-shadow:
+       .1vw .1vw 0 #000,
+       -.08vw -.1vw 0 #000,  
+       .1vw -.1vw 0 rgb(0, 0, 0),
+       -.1vw .1vw 0 #000,
+       1px 1px 0 #000;
+}
+
+.bottom_link {
+    position: absolute;
+    text-decoration: none;
+    top: 55%;
+    left: 35%;
+    color:#eef1f2;
+    font-size: 3vw;
+    text-shadow:
+       .2vw .2vw 0 #000,
+       -.08vw -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+       1px 1px 0 #000;
+    
+}
+
+.link {
+    font-size: 2.5vw;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: 32%; 
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1vw 3vw;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: #8aa0ac;;
+}
+
+
+.bottom_link:hover {
+    color: #8aa0ac;;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 9vw;
+        top: 35%;
+        left: 20%;
+        text-shadow: none;
+    }
+
+    ul {
+        left: 20%;
+    }
+
+    .link {
+        font-size: 6vw;
+        left: 0%;
+    }
+
+
+    .bottom_link {
+        font-size: 5vw;
+        left: 25%;
+        text-shadow:
+            .0vw .0vw 0 #000,
+            -.0vw -0px 0 #000,  
+            0x -0px 0 #000,
+            -0px 0px 0 #000,
+            0px 0px 0 #000;
+    }
+
+    
+}
+
+
+

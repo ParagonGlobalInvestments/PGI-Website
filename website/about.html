@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>about US UI</title>
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Navbar Contents -->
+	<div id="nav-placeholder"></div>
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<script>
+		$.get("nav.html", function(data){
+			$("#nav-placeholder").replaceWith(data);
+		});
+	</script>
+
+	<div class="container">
+		<div class="about-us">
+			<div class="who-we-are">
+				<h4>Who we are</h4>
+                <span>The Paragon National Group is an organization dedicated to the development of students in both value 
+                investing fundamentals and in an understanding of technology, computer programming, and data science. 
+                We believe that an understanding of computer and data science is pivotal in the current 
+                business environment as technology is becoming integrated into every sector and the demand of analysts 
+                who can code is constantly increasing. </span>
+
+                
+			</div>
+            <h4 class="curriculum">Curriculum</h4>
+			<div class="cards">
+				<div class="card">
+					<div class="card-body">
+						<h3>Fundamentals</h3>
+						<p>This portion of the course will focus on teaching students the fundamentals of accounting, finance, and valuation. More info coming soon.</p>
+					</div>
+					</div>
+			
+			
+			<div class="card">
+					<card class="card-body">
+						<h3>Computer and Data Science</h3>
+						<p>Part 2 of the curriculum aims to educate students on the theory and applications of computer and data science.
+							The curriculum will revolve around the Python programming language. Students will learn underlying theory of computer systems, basic programming in python, 
+							and applied data science using Pandas, Numpy, and Matplotlib. Topics will focus on teaching the students syntax and uses of basic python and will also explore 
+							more advanced concepts like Object Orientated Programming, Input and Output, Web Scraping, and more. The Data Science curriculum will teach students how to analyze 
+							and manipulate data to derive complex statistical analyses from data tables. Using Pandas, Numpy, Matplotlib, etc., our students will be able to collect, clean, and analyze 
+							raw data to create meaningful reports and draw quality conclusions by implementing the basics of Python and R.</p>
+					</card>
+				</div>
+			
+			<div class="card">
+					<card class="card-body">
+						<h3>Quantitative Portfolio Management</h3>
+						<p>Part 3 of the curriculum focuses on educating students on applied forms of Quantitative Portfolio Management using the information learned in the first 2 parts of the curriculum. 
+							Students will learn the basic of modern portfolio theory including analysis of systematic and idiosyncratic risks  and total return analysis using the 
+							Sharpe, Info, and Treynor ratios. Eventually students will learn to construct a portfolio based off the Mean-Variance Analysis and its variations. Basic statistics, linear algebra, 
+							and applied regression analysis will be taught in conjunction with this portion. Later, factor analysis and investing will be taught with a focus on smart beta, hedging, and tracking assets. 
+							This conclusion to the course will teach students not only to pick the best assets, but to also analyze their portfolio allocation to optimize their portfolio returns.</p>
+					</card>
+            </div>
+
+			
+		</div>
+
+	</div>
+
+
+</body>
+</html>
+
