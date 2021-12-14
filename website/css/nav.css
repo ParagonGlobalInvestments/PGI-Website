@@ -6,6 +6,7 @@
 	justify-content: space-between;
 	width: 90%;
 	margin:10px;
+    overflow-x: hidden;
 }
 .nav span{
 	margin-left: 20px;
@@ -32,9 +33,9 @@
 }
 
 .logo{
-	font-family: 'Dancing Script',cursive;
+	/* font-family: 'Dancing Script',cursive; */
 	/* font-size: 24px; */
-    width: 15%;
+    width: 550%;
 }
 
 
@@ -55,6 +56,8 @@ controls their features */
 
 }
 
+
+
 /* It's # because we placed an id (#) onto the navbar__logo
 This is for the singular logo (JS) in this build*/
 #navbar__logo {
@@ -62,7 +65,7 @@ This is for the singular logo (JS) in this build*/
     background: #303340;
     /* Makes the background image have gradient coloring */
     background: #fff;
-     background-size: 100%;
+     /* background-size: 100%; */
      -webkit-background-clip: text;
      -moz-background-clip: text;
      -webkit-text-fill-color: transparent;
@@ -73,6 +76,8 @@ This is for the singular logo (JS) in this build*/
      cursor: pointer;
      text-decoration: none;
      font-size: 2rem;
+     width: 1rem;
+     
 }
 
 /* This controls the code for the display of all the links in the
