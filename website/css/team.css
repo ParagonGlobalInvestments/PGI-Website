@@ -1,3 +1,7 @@
+html, body {
+	overflow-x: hidden;
+}
+
 body{
 	margin:0;
 	padding: 0;
@@ -5,6 +9,14 @@ body{
 	height: 100%;
 	overflow-x: hidden;
 }
+
+.wrapper {
+	/* position: absolute; */
+	width: 100%;
+	height: 100%;
+	background: #00182a;  
+}
+
 .container{
 	width: 100%;
 	height: 100%;
@@ -174,6 +186,10 @@ body{
 
 	.full {
 		display: inline;
+		/* position: absolute;
+		width: 100%;
+		height: 100%;
+		background: #00182a;   */
 		/* height: 5000px; */
 	}
 
@@ -280,3 +296,4 @@ img {
 @media only screen and (max-width: 500px) {
   .prev, .next,.text {font-size: 14px}
 }
+
