@@ -133,7 +133,7 @@ links to a dashboard */
         display: grid;
         grid-template-columns: auto;
         margin: 0;
-        width: 100%;
+        width: 90%;
         position: absolute;
         top: -1000px;
         opacity: 1;
