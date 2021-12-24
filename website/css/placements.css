@@ -1,6 +1,11 @@
+
+
 html, body {
 	overflow-x: hidden;
+	/* background: #f4f4ec; */
 }
+
+
 
 body{
 	margin: 0;
@@ -12,7 +17,7 @@ body{
 	/* overflow-x: hidden;
 	position:relative;
   	/* overflow-x:hidden; */
-	  overflow-x: hidden;
+	overflow-x: hidden;
     overflow-y: scroll !important;
 	  
 }
@@ -48,18 +53,19 @@ span{
 }
 
 h3{
+	padding-top: 2rem;
 	font-size:1.5em;
 	text-align:center;
 }
 
 .img_div{
-	max-width: 15%;
+	max-width: 17%;
 	max-height: 5%;
 	display: flex;
 	align-items: center;
 }
 
-img{
+.company {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
@@ -68,11 +74,12 @@ img{
 	max-height: 85%;
 }
 
-img:hover{
+.company:hover{
 	opacity :0.6;
 }
 
 .companies{
+	padding-top: 3rem;
 	align-items: left;
 	display: flex;
 	flex-direction:row;
@@ -81,4 +88,20 @@ img:hover{
 	width: 90%;
 	margin:10px;
     overflow-x: hidden;
+}
+
+.golub {
+	filter: invert(1);
+}
+
+.arena {
+	/* filter: invert(1); */
+}
+
+@media (max-width: 500px) {
+
+	.img_div{
+		max-width: 25%;
+	}
+
 }
