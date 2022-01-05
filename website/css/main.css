@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Belleza");
+/* @import url("https://fonts.googleapis.com/css?family=Belleza"); */
 * {
-	font-family: 'Belleza';
+	/* font-family: 'Belleza'; */
 }
 
 
@@ -27,4 +27,5 @@ span {
 
 p {
     color: #8aa0ac;
+	/* line-height: 190%; */
 }

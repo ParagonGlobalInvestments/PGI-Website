@@ -5,8 +5,9 @@ html, body {
 body{
 	margin: 0;
 	padding: 0;
-	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Montserrat', sans-serif;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 .wrapper {
@@ -58,9 +59,9 @@ p {
 	flex-direction: column;
 }
 .who-we-are span{
-	width: 60%;
+	width: 70%;
 	align-items: center;
-text-align: center;
+	text-align: center;
 }
 .cards{
 	display: flex;
@@ -95,5 +96,55 @@ span {
 	padding-top: 4rem;
 }
 
+li {
+	color: #8aa0ac;
+	list-style-type: none;
+	padding: .4rem;
+}
+ul {
+	/* padding-right: */
+	transform: translate(-2.3rem, 0);
+	align-items: center;
+}
 
 
+
+
+@media (max-width: 500px) {
+
+	.who-we-are span{
+		width: 80%;
+		align-items: center;
+		text-align: center;
+	}
+
+	
+
+	/* .curriculum {
+		text-align: left;
+	}
+
+	.who-we-are span{
+		align-items: left;
+		text-align: left;
+	}
+
+	h4 {
+		align-items: left;
+		text-align: left;
+	}
+
+	.who-we-are {
+		align-items: left;
+		text-align: left;
+	}
+
+	.about-us{
+		display: flex;
+		justify-content: left;
+		align-items: left;
+		width: 100%;
+		flex-direction: column;
+	} */
+
+}
