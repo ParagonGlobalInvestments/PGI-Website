@@ -45,8 +45,8 @@ span{
 }
 
 h3{
-	padding-top: 2rem;
-	font-size:1.5em;
+	padding-top: 8rem;
+	font-size:2em;
 	text-align:center;
 }
 
@@ -71,7 +71,7 @@ h3{
 }
 
 .companies{
-	padding-top: 3rem;
+	/* padding-top: 1rem; */
 	align-items: left;
 	display: flex;
 	flex-direction:row;
