@@ -13,6 +13,7 @@
 }
 
 .navbar {
+    font-family: 'Montserrat', sans-serif;
     background: #00182a;
     height: 80px;
     display: flex;
