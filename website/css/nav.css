@@ -16,10 +16,7 @@
     background: #00182a;
     height: 80px;
     display: flex;
-    /* Next two need display: flex
-    to work properly */
-    justify-content: center;
-    align-items: center;
+    position: absolute;
     /* Default is 16 pixels multiples it */
     font-size: 1.2rem;
     position: sticky;
@@ -84,6 +81,8 @@ This is for the singular logo (JS) in this build*/
 navbar */
 .navbar__menu {
     display: flex;
+    position: absolute;
+    left: 40%;
     align-items: center;
     list-style: none;
 
