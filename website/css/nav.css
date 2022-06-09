@@ -1,6 +1,4 @@
-
 /* navbar */
-
 .nav{
 	display: flex;
 	justify-content: space-between;
@@ -25,7 +23,6 @@
     /* This makes it so the navbar is always above other items
     in the website */
     z-index: 999;
-
 }
 
 .logo{
@@ -73,7 +70,6 @@ This is for the singular logo (JS) in this build*/
 /* This controls the code for the display of all the links in the
 navbar */
 .navbar__menu {
-
     display: flex;
     align-items: center;
     list-style: none;
@@ -87,6 +83,7 @@ navbar */
 
 /* This controls the specific items for the links (a tags) */
 .navbar__links {
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     display: flex;
     align-items: center;
@@ -101,7 +98,6 @@ navbar */
     color: #808080;
     transition: all 0.3s ease;
 }
-
 
 /* This is for when the screen is being
 minimized and it changes the navbar
