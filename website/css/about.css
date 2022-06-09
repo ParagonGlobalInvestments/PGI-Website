@@ -95,12 +95,12 @@ span {
 	padding-top: 4rem;
 }
 
-li {
+.about_link{
 	color: #8aa0ac;
 	list-style-type: none;
 	padding: .4rem;
 }
-ul {
+.modules{
 	/* padding-right: */
 	transform: translate(-2.3rem, 0);
 	align-items: center;
