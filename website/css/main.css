@@ -1,6 +1,23 @@
 /* @import url("https://fonts.googleapis.com/css?family=Belleza"); */
 * {
 	/* font-family: 'Belleza'; */
+	/* font-family: Serif; */
+}
+
+body {
+	animation: transitionIn .75s;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
 
 
@@ -29,3 +46,4 @@ p {
     color: #8aa0ac;
 	/* line-height: 190%; */
 }
+
