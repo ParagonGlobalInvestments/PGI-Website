@@ -1,6 +1,4 @@
-
 /* navbar */
-
 .nav{
 	display: flex;
 	justify-content: space-between;
@@ -13,12 +11,9 @@
 }
 
 .navbar {
-    font-family: 'Montserrat', sans-serif;
     background: #00182a;
     height: 80px;
     display: flex;
-    /* Next two need display: flex
-    to work properly */
     justify-content: center;
     align-items: center;
     /* Default is 16 pixels multiples it */
@@ -28,14 +23,9 @@
     /* This makes it so the navbar is always above other items
     in the website */
     z-index: 999;
-    /* border-style: solid;
-    border-width: thin; */
-
 }
 
 .logo{
-	/* font-family: 'Dancing Script',cursive; */
-	/* font-size: 24px; */
     width: 550%;
 }
 
@@ -48,11 +38,9 @@ controls their features */
     display: flex;
     justify-content: space-between;
     height: 75px;
-    z-index: 1;
+    z-index: 99;
     width: 100%;
     max-width: 1300px;
-    /* margin/padding: (top right) (bottom left)
-    auto completes for bottom left*/
     margin: 0 auto;
 
 }
@@ -64,9 +52,7 @@ This is for the singular logo (JS) in this build*/
 #navbar__logo {
     padding: 1.2em;
     background: #303340;
-    /* Makes the background image have gradient coloring */
     background: #fff;
-     /* background-size: 100%; */
      -webkit-background-clip: text;
      -moz-background-clip: text;
      -webkit-text-fill-color: transparent;
@@ -84,7 +70,6 @@ This is for the singular logo (JS) in this build*/
 /* This controls the code for the display of all the links in the
 navbar */
 .navbar__menu {
-
     display: flex;
     align-items: center;
     list-style: none;
@@ -98,6 +83,7 @@ navbar */
 
 /* This controls the specific items for the links (a tags) */
 .navbar__links {
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     display: flex;
     align-items: center;
@@ -112,7 +98,6 @@ navbar */
     color: #808080;
     transition: all 0.3s ease;
 }
-
 
 /* This is for when the screen is being
 minimized and it changes the navbar
@@ -169,12 +154,13 @@ links to a dashboard */
 
     .navbar__item {
         width: 100%;
+        padding: .01rem;
 
     }
 
     .navbar__links {
         text-align: center;
-        /* padding: .5rem; */
+        
         width: 100%;
         display: table;
         color: #fff;
