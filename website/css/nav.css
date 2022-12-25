@@ -7,27 +7,6 @@
     overflow-x: hidden;
 }
 
-.team_menu {
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    font-family: "monsteratt", sans-serif;
-    display: none;
-    position: absolute;
-    background-color: #00182a;
-}
-
-.navbar ul li:hover .team_menu{
-    display: inline-block;
-    background:#00182a; 
-    margin-left: 10px;
-}
-
-.navbar ul li:hover .team_menu ul li{
-    width: 150px; 
-    padding: 0px;
-    background: #00182a;
-    border-radius: 1
-}
-
 .nav span{
 	margin-left: 20px;
 }
