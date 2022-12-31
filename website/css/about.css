@@ -41,6 +41,8 @@ h3 {
 
 p {
 	/* text-align: center; */
+	font-size: 1.2rem;
+	line-height: 24px;
 }
 
 
@@ -56,12 +58,17 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	padding-top: 2rem;
+	/* padding-bottom: 3rem; */
 }
 .who-we-are span{
 	width: 70%;
 	align-items: center;
 	text-align: center;
+	font-size: 1.2rem;
+	line-height: 24px;
 }
+
 .cards{
 	display: flex;
 	justify-content: center;
@@ -75,10 +82,6 @@ p {
 	margin: 20px;
 	padding-left: 2rem;
 	padding-right: 50px;
-}
-.card p{
-	font-size: 14px;
-	color: #8aa0ac;
 }
 
 span {
@@ -106,7 +109,78 @@ span {
 	align-items: center;
 }
 
-@media (max-width: 500px) {
+
+.school {
+	width: 13rem;
+}
+
+
+
+.schools{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:10px;
+	flex-wrap: wrap;
+	padding-left: 2rem;
+}
+
+.schools .school_card{
+	width: 13rem;
+	margin: 20px;
+	/* padding-left: 10rem; */
+	padding-right: 50px;
+}
+
+.cards{
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	margin:10px;
+	flex-wrap: wrap;
+}
+
+.cards .card{
+	width: 20rem;
+	margin: 20px;
+	padding-left: 2rem;
+	padding-right: 50px;
+}
+
+.education{
+	/* display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	/* margin:10px;
+	flex-wrap: wrap; */
+	padding-left: 9rem;
+}
+
+.education .education-holder{
+	/* width: 20rem;
+	margin: 20px;
+	padding-left: 2rem;
+	padding-right: 50px; */
+	width: 90%;
+	/* padding-left: 10%; */
+	/* padding-top: 1rem; */
+	border-bottom: 1px solid #8aa0ac;
+}
+
+.education .education-holder3{
+	/* width: 20rem;
+	margin: 20px;
+	padding-left: 2rem;
+	padding-right: 50px; */
+	width: 90%;
+	/* padding-left: 10%; */
+	/* padding-top: 1rem; */
+	/* border-bottom: 1px solid #fff; */
+}
+
+
+
+@media (max-width: 700px) {
 
 	.who-we-are span{
 		width: 80%;
@@ -114,33 +188,19 @@ span {
 		text-align: center;
 	}
 
+	.modules {
+		padding-left: 2rem;
+	}
+	.school {
+		width: 12rem;
+		padding-left: 1rem;
+	}
+
+	.education {
+		padding-left: 2rem;
+		align-items: center;
+	}
 	
 
-	/* .curriculum {
-		text-align: left;
-	}
-
-	.who-we-are span{
-		align-items: left;
-		text-align: left;
-	}
-
-	h4 {
-		align-items: left;
-		text-align: left;
-	}
-
-	.who-we-are {
-		align-items: left;
-		text-align: left;
-	}
-
-	.about-us{
-		display: flex;
-		justify-content: left;
-		align-items: left;
-		width: 100%;
-		flex-direction: column;
-	} */
-
 }
+
