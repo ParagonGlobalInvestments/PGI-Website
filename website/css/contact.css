@@ -218,7 +218,7 @@ textarea.input {
 }
 
 .information {
-  display: flex;
+  /* display: flex; */
   color: black;
   margin: 0.7rem 0;
   align-items: center;
