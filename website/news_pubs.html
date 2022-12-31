@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Us</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1", minimum-scale="1">
+        <link rel="icon" href="Headshots/fav.jpeg?">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/news_pubs.css">
+
+
+
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- Navbar Contents -->
+        <div id="nav-placeholder"></div>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+            $.get("nav.html", function(data){
+                            $("#nav-placeholder").replaceWith(data);
+                        });
+        </script>
+
+
+
+        <section class="info">
+            <div class="blurb">
+                <h4>News and Publications</h4>
+            </div>
+        </section>
+
+        <section class="cards-wrapper">
+
+            <div class="card-grid-space">
+                <a class="card" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                    <div>
+                        <h1>HTML Syntax</h1>
+                        <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+                        <div class="date">6 Oct 2017</div>
+                        <div class="tags">
+                            <div class="tag">HTML</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card-grid-space">
+                <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/">
+                    <div>
+                        <h1>Basic types of HTML tags</h1>
+                        <p>Learn about some of the most common HTML tags…</p>
+                        <div class="date">9 Oct 2017</div>
+                        <div class="tags">
+                            <div class="tag">HTML</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card-grid-space">
+                <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/">
+                    <div>
+                        <h1>Links, images and about file paths</h1>
+                        <p>Learn how to use links and images along with file paths…</p>
+                        <div class="date">14 Oct 2017</div>
+                        <div class="tags">
+                            <div class="tag">HTML</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+    </body>
+</html>
