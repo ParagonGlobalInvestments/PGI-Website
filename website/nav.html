@@ -1,73 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Header Navigation Menu With Dropdowns</title>
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="icon" href="Headshots/fav.jpeg?">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="topnav" id="myTopnav">
-        <a href="index.html" class="active">
-            <img class="logo" src="images/Logo - Rectangle.jpeg" alt="">
-        </a>
-        <div class="site-links"> 
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
 
-            <!-- Home Page -->
-            <a class="page-links" href="index.html">Home</a>
+    <header>
+      <a href="#" class="logo">
+          <img class="logo-image" src="images/Logo - Rectangle.jpeg" alt="">
+      </a>
+      <div class="navigation">
+        <ul class="menu">
+          <div class="close-btn"></div>
 
-            <!-- About Dropdown -->
-            <div class="dropdown">
-                <button class="dropbtn">About
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="about.html">Who We Are</a>
-                    <a class="page-links" href="investment.html">Investments</a>
-                    <a href="#">News and Publications</a>
-                </div>
-            </div>
+          <!-- Home -->
+          <li class="menu-item"><a href="index.html">Home</a></li>
 
-            <!-- Investments Page -->
-            
+          <!-- About -->
+          <li class="menu-item">
+            <a class="sub-btn" href="#">About</a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="about.html">Who We Are</a></li>
+              <li class="sub-item"><a href="investment.html">Investments</a></li>
+              <li class="sub-item"><a href="#">News and Publications</a></li> 
+            </ul>
+          </li>
 
-            <!-- Team Dropdown -->
-            <div class="dropdown">
-                <button class="dropbtn">Team
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="team.html">UChicago</a>
-                    <a href="team_penn.html">UPenn</a>
-                </div>
-            </div>
+           <!-- Team -->
+           <li class="menu-item">
+            <a class="sub-btn" href="#">Team</a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="team_uchicago.html">UChicago</a></li>
+              <li class="sub-item"><a href="team_penn.html">UPenn</a></li>
+            </ul>
+          </li>
+    
+          <li class="menu-item"><a href="placements.html">Placements</a></li>
+          <li class="menu-item"><a href="contact.html">Contact</a></li>
 
-            <!-- Placements -->
-            <a class="page-links" href="placements.html">Placements</a>
+            <!-- Apply -->
+            <li class="menu-item">
+                <a class="sub-btn" href="#">Apply</a>
+                <ul class="sub-menu">
+                  <li class="sub-item"><a href="apply_uchicago.html">UChicago</a></li>
+                  <!-- <li class="sub-item"><a href="team_penn.html">UPenn</a></li> -->
+                </ul>
+              </li>
 
-            <!-- Contact -->
-            <a class="page-links" href="contact.html">Contact</a>
-
-            <!-- Apply Dropdown -->
-            <div class="dropdown">
-                <button class="dropbtn">Team
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="apply.html">UChicago</a>
-                    <a href="team_penn.html">UPenn</a>
-                </div>
-            </div>
-            
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
-        
+        </ul>
       </div>
-    <script src="js/nav.js"></script>
-</body>
-</html>
+      <div class="menu-btn"></div>
+    </header>
 
+
+    <script type="text/javascript">
+    //jquery for toggle dropdown menus
+    $(document).ready(function(){
+      //toggle sub-menus
+      $(".sub-btn").click(function(){
+        $(this).next(".sub-menu").slideToggle();
+      });
+
+      //toggle more-menus
+      $(".more-btn").click(function(){
+        $(this).next(".more-menu").slideToggle();
+      });
+    });
+
+    //javascript for the responsive navigation menu
+    var menu = document.querySelector(".menu");
+    var menuBtn = document.querySelector(".menu-btn");
+    var closeBtn = document.querySelector(".close-btn");
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove("active");
+    });
+
+    //javascript for the navigation bar effects on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
+
+  </body>
+</html>
