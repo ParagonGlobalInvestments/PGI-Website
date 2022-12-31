@@ -97,6 +97,7 @@ a {
     margin-right: 0.5em;
     line-height: 1.5em;
     transition: all, var(--transition-time);
+    text-decoration: none;
 }
 
 .card:hover .tags .tag {
