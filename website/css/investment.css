@@ -58,7 +58,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding-top: 2rem;
+	padding-top: 0rem;
 	/* padding-bottom: 3rem; */
 }
 .who-we-are span{
