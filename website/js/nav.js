@@ -1,27 +1,30 @@
-// Targets the mobile menu id for the html
-const menu = document.querySelector('#mobile-menu')
+$(document).ready(function(){
+  //toggle sub-menus
+  $(".sub-btn").click(function(){
+    $(this).next(".sub-menu").slideToggle();
+  });
 
-// This one targets a class
-const menuLinks = document.querySelector('.navbar__menu')
-
-// Display Mobile Menu function
-const mobileMenu = () => {
-    // Active or not active
-    // Toggles the is-active class
-    menu.classList.toggle('is-active')
-    // Toggles the active class
-    menuLinks.classList.toggle('active')
-}
-
-menu.addEventListener('click', mobileMenu);
-
-const button = document.querySelector('.btn')
-const form   = document.querySelector('.form')
-
-button.addEventListener('click', function() {
-   form.classList.add('form--no')
+  //toggle more-menus
+  $(".more-btn").click(function(){
+    $(this).next(".more-menu").slideToggle();
+  });
 });
 
+//javascript for the responsive navigation menu
+var menu = document.querySelector(".menu");
+var menuBtn = document.querySelector(".menu-btn");
+var closeBtn = document.querySelector(".close-btn");
 
+menuBtn.addEventListener("click", () => {
+  menu.classList.add("active");
+});
 
+closeBtn.addEventListener("click", () => {
+  menu.classList.remove("active");
+});
 
+//javascript for the navigation bar effects on scroll
+window.addEventListener("scroll", function(){
+  var header = document.querySelector("header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
