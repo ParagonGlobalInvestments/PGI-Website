@@ -1,0 +1,214 @@
+html, body {
+	overflow-x: hidden;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+}
+
+.wrapper {
+	/* position: absolute; */
+    width: 100%;
+    height: 100%;
+    background: #00182a;  
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	flex-direction: column;
+	background: #00182a; 
+	/* background: -webkit-linear-gradient(to right, #00182a, #16222A);  */
+	/* background: linear-gradient(to right, #00182a, #16222A);  */
+	
+	background-size: cover;
+	min-width: 100%;
+	background-position: center center;
+	color: #fff;
+	overflow: hidden;
+	/* position:relative; */
+}
+
+h3 {
+	/* text-align: center; */
+}
+
+p {
+	/* text-align: center; */
+	font-size: 1.2rem;
+	line-height: 24px;
+}
+
+
+.about-us{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+}
+.who-we-are{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 2rem;
+	/* padding-bottom: 3rem; */
+}
+.who-we-are span{
+	width: 70%;
+	align-items: center;
+	text-align: center;
+	font-size: 1.2rem;
+	line-height: 24px;
+}
+
+.cards{
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	margin:10px;
+	flex-wrap: wrap;
+}
+
+.cards .card{
+	width: 20rem;
+	margin: 20px;
+	padding-left: 2rem;
+	padding-right: 50px;
+}
+
+span {
+	color: #8aa0ac;
+}
+
+
+.active{
+	border-bottom: 1px solid #fff;
+}
+
+.curriculum {
+	text-align: center;
+	padding-top: 4rem;
+}
+
+.about_link{
+	color: #8aa0ac;
+	list-style-type: none;
+	padding: .4rem;
+}
+.modules{
+	/* padding-right: */
+	transform: translate(-2.3rem, 0);
+	align-items: center;
+}
+
+
+.school {
+	width: 13rem;
+}
+
+
+
+.schools{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:10px;
+	flex-wrap: wrap;
+	padding-left: 2rem;
+}
+
+.schools .school_card{
+	width: 13rem;
+	margin: 20px;
+	/* padding-left: 10rem; */
+	padding-right: 50px;
+}
+
+.cards{
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	margin:10px;
+	flex-wrap: wrap;
+}
+
+.cards .card{
+	width: 20rem;
+	margin: 20px;
+	padding-left: 2rem;
+	padding-right: 50px;
+}
+
+.education{
+	/* display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	/* margin:10px;
+	flex-wrap: wrap; */
+	padding-left: 9rem;
+}
+
+.education .education-holder{
+	/* width: 20rem;
+	margin: 20px;
+	padding-left: 2rem;
+	padding-right: 50px; */
+	width: 90%;
+	/* padding-left: 10%; */
+	/* padding-top: 1rem; */
+	border-bottom: 1px solid #8aa0ac;
+}
+
+.education .education-holder3{
+	/* width: 20rem;
+	margin: 20px;
+	padding-left: 2rem;
+	padding-right: 50px; */
+	width: 90%;
+	/* padding-left: 10%; */
+	/* padding-top: 1rem; */
+	/* border-bottom: 1px solid #fff; */
+}
+
+
+
+@media (max-width: 700px) {
+
+	.who-we-are span{
+		width: 80%;
+		align-items: center;
+		text-align: center;
+	}
+
+	.who-we-are {
+		padding-top: 0rem;
+	}
+
+	.modules {
+		padding-left: 2rem;
+	}
+	.school {
+		width: 12rem;
+		padding-left: 1.5rem;
+	}
+
+	.education {
+		padding-left: 2rem;
+		align-items: center;
+	}
+
+	.curriculum {
+		font-size: 1.5rem;
+	}
+	
+
+}
+
