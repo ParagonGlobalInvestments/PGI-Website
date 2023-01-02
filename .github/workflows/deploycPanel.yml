@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+    paths:
+      - website/
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
