@@ -5,10 +5,6 @@
   --transition-time: 0.5s;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .blurb {
   align-items: center;
   text-align: center;
@@ -42,7 +38,6 @@ a {
 }
 
 .card {
-  font-family: "Heebo";
   --bg-filter-opacity: 0.5;
   /* background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img); */
   height: 20em;
@@ -63,6 +58,7 @@ a {
   overflow: hidden;
   border: 10px solid #ccc;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .card:hover {

@@ -39,6 +39,7 @@ body {
 .title {
   color: whitesmoke;
 }
+
 .cards {
   display: flex;
   justify-content: center;
