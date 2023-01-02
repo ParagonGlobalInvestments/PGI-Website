@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News and Publications</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width"
+      ,
+      initial-scale="1"
+      ,
+      minimum-scale="1"
+    />
+    <link rel="icon" href="Headshots/fav.jpeg?" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/news_pubs.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar Contents -->
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+      $.get("nav.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
+
+    <section class="info">
+      <div class="blurb">
+        <h4>News and Publications</h4>
+      </div>
+    </section>
+
+    <section class="cards-wrapper">
+      <div class="card-grid-space">
+        <div class="card">
+          <div>
+            <h1>Smart Beta and Factor Portfolio Construction</h1>
+            <p>
+              Research report on how to systematically construct portfolios
+              using factor analysis or create portfolio weightings using Smart
+              Beta. An extention of the LFPM report.
+            </p>
+
+            <div class="tags">
+              <a
+                class="tag"
+                href="News/Smart Beta and Factor Portfolio Construction.pdf"
+                target="_blank"
+                >View Report Here</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="card-grid-space">
+                <div class="card">
+                    <div>
+                        <h1>Linear Factor Pricing Models</h1>
+                        <p>Research report providing an introduction to regression analysis, linear factor pricing models, factor decomposition.
+                            An extention of the modern portfolio theory research report.
+                        </p>
+                        
+                        <div class="tags">
+                            <a class="tag" href="News/Smart Beta and Factor Portfolio Construction.pdf" target="_blank">View Report Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+      <div class="card-grid-space">
+        <div class="card">
+          <div>
+            <h1>Modern Portfolio Theory</h1>
+            <p>
+              Research report providing an introduction to modern portfolio
+              theory and mean-variance analysis.
+            </p>
+
+            <div class="tags">
+              <a
+                class="tag"
+                href="News/Modern Portfolio Theory.pdf"
+                target="_blank"
+                >View Report Here</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-grid-space">
+        <div class="card">
+          <div>
+            <h1>PNG is Officially a 501(c)(3) Non-Profit</h1>
+            <p>
+              PNG is officially registered and recognized as a 501(c)(3)
+              tax-exempt not-for-profit organization.
+            </p>
+            <div class="date">12 Oct 2022</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-grid-space">
+        <div class="card">
+          <div>
+            <h1>PNG Announces Expansion to the University of Pennsylvania</h1>
+            <p>
+              PNG officially opens its second chapter at the University of
+              Pennsylvania.
+            </p>
+            <div class="date">3 Oct 2022</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-grid-space">
+        <div class="card">
+          <div>
+            <h1>PNG Flagship Investment Fund Launch</h1>
+            <p>
+              Thanks to generous donors, PNG officially launches its flagship
+              investment fund where students can invest into real publicly
+              traded equities using value investing and quantitative based
+              techniques.
+            </p>
+            <div class="date">3 Oct 2022</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-grid-space">
+        <div class="card">
+          <div>
+            <h1>PNG Launches First Chapter at the University of Chicago</h1>
+            <p>
+              PNG launches its first chapter with the goal of educating students
+              on the interesection of value investing, software development, and
+              quantitative finance.
+            </p>
+            <div class="date">26 December 2021</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

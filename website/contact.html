@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
-    <link rel="icon" href="Headshots/fav.jpeg?">
+    <link rel="icon" href="Headshots/fav.jpeg?" />
     <link rel="stylesheet" href="css/contact.css" />
-    
+
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
@@ -14,16 +14,15 @@
   </head>
 
   <div id="nav-placeholder"></div>
-	<script src="//code.jquery.com/jquery.min.js"></script>
-	<script>
-		$.get("nav.html", function(data){
-			$("#nav-placeholder").replaceWith(data);
-		});
-	</script>
-  
-  <body>
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
 
-  <!-- <nav class="navbar">
+  <body>
+    <!-- <nav class="navbar">
     <div class="navbar__container">
         <a href="index.html" id="navbar__logo" class="navbar__logo">
             <img src="Headshots/logo - small diamond.jpeg" alt="logo" class="logo">
@@ -57,8 +56,6 @@
 </nav>
 <script src="js/nav.js"></script>  -->
 
-
-
     <div class="container">
       <!-- <span class="big-circle"></span> -->
       <!-- <img src="img/shape.png" class="square" alt="" /> -->
@@ -66,21 +63,37 @@
         <div class="contact-info">
           <h3 class="title__first">Let's get in touch</h3>
           <p class="text">
-            We would love to hear from you. If you're interested or have any questions, send us a message through the prompt or 
-            reach out to us through the following:
+            We would love to hear from you. If you're interested or have any
+            questions, send us a message through the prompt or reach out to us
+            through the following:
           </p>
 
           <div class="info">
             <div class="information">
-              <p class="desc">Chicago, IL</p><br>
-              
+              <p class="desc">Chicago, IL</p>
+              <br />
             </div>
             <div class="information">
-              <p class="desc">paragonnational@gmail.com</p> 
-              <p class="desc"> <b>UChicago Instagram <br></b> <a style="text-decoration: none" target="_blank" href="https://www.instagram.com/paragonnationalgroup/">@paragonnationalgroup</a></p>
-              <p class="desc"> <b>UPenn Instagram <br></b> <a style="text-decoration: none" target="_blank" href="https://www.instagram.com/png.upenn/">@png.upenn</a></p>
+              <p class="desc">paragonnational@gmail.com</p>
+              <p class="desc">
+                <b>UChicago Instagram <br /></b>
+                <a
+                  style="text-decoration: none"
+                  target="_blank"
+                  href="https://www.instagram.com/paragonnationalgroup/"
+                  >@paragonnationalgroup</a
+                >
+              </p>
+              <p class="desc">
+                <b>UPenn Instagram <br /></b>
+                <a
+                  style="text-decoration: none"
+                  target="_blank"
+                  href="https://www.instagram.com/png.upenn/"
+                  >@png.upenn</a
+                >
+              </p>
             </div>
-
           </div>
 
           <div class="social-media">
@@ -89,7 +102,10 @@
               <!-- <a href="https://www.instagram.com/paragonnationalgroup/" target="_blank">
                 <i class="fab fa-instagram"></i>
               </a> -->
-              <a href="https://www.linkedin.com/company/paragonnational/" target="_blank">
+              <a
+                href="https://www.linkedin.com/company/paragonnational/"
+                target="_blank"
+              >
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
@@ -100,25 +116,29 @@
           <!-- <span class="circle one"></span> -->
           <!-- <span class="circle two"></span> -->
 
-          <form action="https://formsubmit.co/paragonnational@gmail.com" method="POST" autocomplete="off">
+          <form
+            action="https://formsubmit.co/paragonnational@gmail.com"
+            method="POST"
+            autocomplete="off"
+          >
             <h3 class="title">Contact us</h3>
             <div class="input-container">
-              <input type="text" name="name" class="input" required/>
+              <input type="text" name="name" class="input" required />
               <label for="">Name</label>
               <span>Name</span>
             </div>
             <div class="input-container">
-              <input type="email" name="email" class="input" required/>
+              <input type="email" name="email" class="input" required />
               <label for="">Email</label>
               <span>Email</span>
             </div>
             <div class="input-container">
-              <input type="tel" name="phone" class="input" required/>
+              <input type="tel" name="phone" class="input" required />
               <label for="">Phone</label>
               <span>Phone</span>
             </div>
             <div class="input-container textarea">
-                <!-- <input type="text" name="message" class="input" required/> -->
+              <!-- <input type="text" name="message" class="input" required/> -->
               <textarea type="text" name="message" class="input"></textarea>
               <label for="">Message</label>
               <span>Message</span>
