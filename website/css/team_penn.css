@@ -133,6 +133,46 @@ body {
   background-position: center center;
 }
 
+/* Junior team */
+
+.card-img8 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Arman\ Ashaboglu.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card-img9 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Manya\ Gauba.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card-img10 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Andy\ Mei.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img11 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Ashish\ Pothireddy.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img12 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Grant\ Mao.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
 .linkedin {
   width: 25px;
 }

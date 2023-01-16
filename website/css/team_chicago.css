@@ -150,6 +150,63 @@ body {
   background-position: center center;
 }
 
+.card-img12 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/RL.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img13 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Clara.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img14 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Lucas\ Tucker.JPG");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img15 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Anna.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+/* Ronak */
+.card-img16 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/john.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img17 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Soupy.PNG");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Bradley */
+.card-img18 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/john.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+
 .linkedin {
   width: 25px;
 }
