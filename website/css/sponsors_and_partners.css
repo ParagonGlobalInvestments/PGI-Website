@@ -126,11 +126,29 @@ h3{
     height: 100%;
     object-fit: contain;
 }
-
 containerspan {
-    display: block;
-    text-align: left;
-    color: #8aa0ac;
-    margin-left: 20px;
-    width: 50%;
+	display: block;
+	text-align: left;
+	color: #8aa0ac;
+	margin-left: 20px;
+	width: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+	.centered_container {
+		flex-direction: column;
+		margin: 20px auto;
+	}
+
+	.container_img {
+		margin-right: 0;
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+
+	containerspan {
+		text-align: center;
+		width: 100%;
+		margin-left: 0;
+	}
 }
