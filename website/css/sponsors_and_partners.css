@@ -1,0 +1,158 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  overflow-y: scroll !important;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  /* background: -webkit-linear-gradient(to right, #00182a, #16222A);  */
+  /* background: linear-gradient(to right, #00182a, #16222A);  */
+
+  background-size: cover;
+  min-width: 100%;
+  background-position: center center;
+  color: #fff;
+  overflow: hidden;
+  /* position:relative; */
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+span {
+  text-align: center;
+  width: 60%;
+}
+
+h3 {
+  padding-top: 4rem;
+  font-size: 2em;
+  text-align: center;
+}
+
+.img_div {
+  /* max-width: 17%;
+	max-height: 5%; */
+  max-width: 25%;
+  max-height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.company {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.company:hover {
+  opacity: 0.6;
+}
+
+.companies {
+  /* padding-top: 1rem; */
+  align-items: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 10px;
+  overflow-x: hidden;
+}
+
+.golub {
+  filter: invert(1);
+}
+
+.arena {
+  /* filter: invert(1); */
+}
+
+@media (max-width: 500px) {
+  .img_div {
+    max-width: 60%;
+  }
+
+  span {
+    text-align: center;
+    width: 80%;
+  }
+}
+
+.centered_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66%;
+}
+
+.container_img {
+  margin-right: 20px;
+  padding-right: 20px;
+  width: 210px;
+  height: 140px;
+}
+
+.container_company {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+containerspan {
+  display: block;
+  text-align: left;
+  color: #8aa0ac;
+  margin-left: 20px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .centered_container {
+    flex-direction: column;
+    margin: 20px auto;
+  }
+
+  .container_img {
+    margin-right: 0;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  containerspan {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .intro h4 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
