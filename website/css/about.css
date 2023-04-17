@@ -175,10 +175,11 @@ span {
 }
 
 table {
-    max-width: 100%;
+    width: 600px;
     border-collapse: collapse;
     margin-bottom: 50px;
     font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
 th {
@@ -201,6 +202,12 @@ tr:nth-child(odd){
 
 tr:first-child {
     background-color: #000000;
+}
+
+@media (max-width: 768px) {
+    table {
+      width: 100%;
+    }
 }
 
 @media (max-width: 700px) {
