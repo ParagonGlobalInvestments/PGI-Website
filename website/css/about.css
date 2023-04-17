@@ -175,9 +175,10 @@ span {
 }
 
 table {
-    width: 600px;
+    max-width: 100%;
+    border-collapse: collapse;
     margin-bottom: 50px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 th {
@@ -194,8 +195,12 @@ th, td {
     width: 50%;
 }
 
+tr:nth-child(odd){
+    background-color: #282727;
+}
+
 tr:first-child {
-    background-color: #010b61;
+    background-color: #000000;
 }
 
 @media (max-width: 700px) {
