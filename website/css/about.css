@@ -112,6 +112,10 @@ span {
   width: 13rem;
 }
 
+.northwestern {
+  width: 16rem;
+}
+
 .schools {
   display: flex;
   justify-content: center;
@@ -119,6 +123,7 @@ span {
   margin: 10px;
   flex-wrap: wrap;
   padding-left: 2rem;
+  padding-bottom: 4rem;
 }
 
 .schools .school_card {
@@ -247,6 +252,11 @@ tr:first-child {
   .school {
     width: 12rem;
     padding-left: 1rem;
+  }
+
+  .northwestern {
+    width: 14rem;
+    padding-left: 0rem;
   }
 
   .education {
