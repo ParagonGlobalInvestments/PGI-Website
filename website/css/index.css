@@ -1,0 +1,1305 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|IBM+Plex+Sans:400,700");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/644abe1713f438169e8d106f.644abe1827b6b0a96ea5c89c.FrfTrCT.hcp.png");
+
+@font-face {
+  font-family: "Courier New-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Courier New Regular.ttf") format("truetype");
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.png-as-an-intercolle {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1174px;
+}
+
+/* screen - iphone-14-pro-6 */
+
+.iphone-14-pro-6 {
+  align-items: center;
+  background-color: var(--bg-primary);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 5588px;
+  overflow: hidden;
+  padding: 8px 0;
+  width: 393px;
+}
+
+.iphone-14-pro-6 .flex-row-3 {
+  align-items: center;
+  display: flex;
+  gap: 180px;
+  margin-right: 6px;
+  min-width: 363px;
+}
+
+.iphone-14-pro-6 .screenshot_2023-03-14_at_146-2 {
+  height: 75px;
+  object-fit: cover;
+  width: 132px;
+}
+
+.iphone-14-pro-6 .x1024px-hamburger_icon_white-1 {
+  height: 50px;
+  margin-bottom: 1px;
+  object-fit: cover;
+  width: 50px;
+}
+
+.iphone-14-pro-6 .paragon-nation-al-group {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 1px;
+  margin-top: 108px;
+  min-height: 112px;
+  text-align: center;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .intersecting-value-i {
+  color: var(--pumice);
+  font-family: var(--font-family-ibm_plex_sans);
+  font-size: var(--font-size-xxs);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2px;
+  min-height: 58px;
+  text-align: center;
+  width: 291px;
+}
+
+.iphone-14-pro-6 .intercollegiate-stud {
+  color: var(--pumice);
+  font-family: var(--font-family-ibm_plex_sans);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2px;
+  min-height: 113px;
+  text-align: center;
+  width: 291px;
+}
+
+.iphone-14-pro-6 .about-us-container {
+  align-self: flex-end;
+  height: 70px;
+  margin-right: -112px;
+  margin-top: 175px;
+  position: relative;
+  width: 419px;
+}
+
+.iphone-14-pro-6 .about-us-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 419px;
+}
+
+.iphone-14-pro-6 .about-us-2 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 419px;
+}
+
+.iphone-14-pro-6 .png-as-an-intercolle-container-1 {
+  height: 120px;
+  margin-top: 6px;
+  position: relative;
+  width: 317px;
+}
+
+.iphone-14-pro-6 .png-as-an-intercolle-1 {
+  color: var(--text-primary);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 317px;
+}
+
+.iphone-14-pro-6 .image-container-1 {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  margin-left: 4px;
+  margin-top: 154px;
+  min-width: 243px;
+}
+
+.iphone-14-pro-6 .image-13 {
+  height: 144px;
+  width: 102px;
+}
+
+.iphone-14-pro-6 .image-14 {
+  height: 121px;
+  margin-bottom: 1px;
+  width: 111px;
+}
+
+.iphone-14-pro-6 .sponsors-container {
+  align-self: flex-end;
+  height: 70px;
+  margin-right: -125px;
+  margin-top: 46px;
+  position: relative;
+  width: 419px;
+}
+
+.iphone-14-pro-6 .sponsors-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 419px;
+}
+
+.iphone-14-pro-6 .sponsors-2 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 419px;
+}
+
+.iphone-14-pro-6 .jane-street-6 {
+  height: 67px;
+  margin-left: 9px;
+  margin-top: 38px;
+  width: 248px;
+}
+
+.iphone-14-pro-6 .elevate-removebg-preview-8 {
+  height: 73px;
+  margin-top: 37px;
+  width: 215px;
+}
+
+.iphone-14-pro-6 .title-1 {
+  color: var(--text-primary);
+  font-family: var(--font-family-ibm_plex_sans);
+  font-size: 50px;
+  font-weight: 700;
+  height: 62px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 27px;
+  margin-top: 219px;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .overlap-group6-1 {
+  height: 69px;
+  margin-left: 27px;
+  margin-top: 35px;
+  position: relative;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .value-investment-1 {
+  height: 68px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .line-8 {
+  left: 0;
+  position: absolute;
+  top: 67px;
+}
+
+.iphone-14-pro-6 .learn-about-the-basi-1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 9px;
+  margin-top: 8px;
+  min-height: 258px;
+  width: 332px;
+}
+
+.iphone-14-pro-6 .software-development-1 {
+  height: 118px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 27px;
+  margin-top: 38px;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .line-9 {
+  margin-left: 19px;
+}
+
+.iphone-14-pro-6 .learn-how-to-build-a-1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 5px;
+  margin-top: 8px;
+  min-height: 207px;
+  width: 332px;
+}
+
+.iphone-14-pro-6 .quantitative-finance-1 {
+  align-self: flex-end;
+  height: 105px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 16px;
+  margin-top: 38px;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .line-10 {
+  margin-left: 21px;
+  margin-top: 8px;
+}
+
+.iphone-14-pro-6 .learn-the-basic-of-m-1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 4px;
+  margin-top: 8px;
+  min-height: 291px;
+  width: 332px;
+}
+
+.iphone-14-pro-6 .investment-fund {
+  color: var(--text-primary);
+  font-family: var(--font-family-ibm_plex_sans);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  height: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 29px;
+  margin-top: 152px;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .group-7 {
+  margin-top: 33px;
+}
+
+.iphone-14-pro-6 .factor-container-1 {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  backdrop-filter: blur(4px) brightness(100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 492px;
+  position: relative;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .portfolio {
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 32px;
+  width: 256px;
+}
+
+.iphone-14-pro-6 .a-systematic-factor-1 {
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 114px;
+  width: 264px;
+}
+
+.iphone-14-pro-6 .group-8 {
+  height: 400px;
+  margin-top: 54px;
+}
+
+.iphone-14-pro-6 .overlap-group1-1 {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  align-items: flex-end;
+  backdrop-filter: blur(4px) brightness(100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  padding: 23px 22px;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .fundamental-analysis-1 {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9px;
+  min-height: 82px;
+  width: 256px;
+}
+
+.iphone-14-pro-6 .students-will-utiliz-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 263px;
+  width: 264px;
+}
+
+.iphone-14-pro-6 .group-9 {
+  margin-top: 54px;
+}
+
+.iphone-14-pro-6 .overlap-group2-1 {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  backdrop-filter: blur(4px) brightness(100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 552px;
+  position: relative;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .once-a-select-number-1 {
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 89px;
+  width: 264px;
+}
+
+.iphone-14-pro-6 .experience {
+  color: var(--text-primary);
+  font-family: var(--font-family-ibm_plex_sans);
+  font-size: 50px;
+  font-weight: 700;
+  height: 62px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 13px;
+  margin-top: 121px;
+  width: 316px;
+}
+
+.iphone-14-pro-6 .flex-row-4 {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  margin-left: 16px;
+  margin-top: 86px;
+  min-width: 355px;
+}
+
+.iphone-14-pro-6 .image-8 {
+  height: 67px;
+  object-fit: cover;
+  width: 140px;
+}
+
+.iphone-14-pro-6 .citadel-3 {
+  height: 34px;
+  margin-top: 1px;
+  object-fit: cover;
+  width: 185px;
+}
+
+.iphone-14-pro-6 .flex-row-5 {
+  align-items: center;
+  display: flex;
+  gap: 28px;
+  margin-left: 16px;
+  margin-top: 51px;
+  min-width: 355px;
+}
+
+.iphone-14-pro-6 .morgan-stanley-20 {
+  height: 74px;
+  object-fit: cover;
+  width: 140px;
+}
+
+.iphone-14-pro-6 .jane-street-4 {
+  height: 44px;
+  width: 187px;
+}
+
+.iphone-14-pro-6 .flex-row-6 {
+  align-items: center;
+  display: flex;
+  gap: 41px;
+  margin-right: 23px;
+  min-width: 344px;
+}
+
+.iphone-14-pro-6 .image-8-1 {
+  height: 119px;
+  object-fit: cover;
+  width: 167px;
+}
+
+.iphone-14-pro-6 .amazon-5 {
+  height: 52px;
+  margin-top: 5px;
+  width: 136px;
+}
+
+.iphone-14-pro-6 .flex-row-7 {
+  align-items: center;
+  display: flex;
+  gap: 29px;
+  margin-left: 2px;
+  min-width: 369px;
+}
+
+.iphone-14-pro-6 .blackstone-3 {
+  height: 34px;
+  margin-top: 1px;
+  object-fit: cover;
+  width: 162px;
+}
+
+.iphone-14-pro-6 .microsoft-3 {
+  height: 91px;
+  width: 178px;
+}
+
+.iphone-14-pro-6 .flex-row-8 {
+  align-items: flex-end;
+  display: flex;
+  gap: 32px;
+  margin-right: 4px;
+  margin-top: 23px;
+  min-width: 357px;
+}
+
+.iphone-14-pro-6 .carlyle-3 {
+  height: 76px;
+  object-fit: cover;
+  width: 164px;
+}
+
+.iphone-14-pro-6 .amazon-5-1 {
+  height: 68px;
+  object-fit: cover;
+  width: 161px;
+}
+
+.iphone-14-pro-6 .group {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 5px;
+  min-width: 320px;
+}
+
+.iphone-14-pro-6 .line {
+  height: 2px;
+  width: 300px;
+}
+/* screen - macbook-pro-14-7-all-breakpoints */
+
+.macbook-pro-14-7-all-breakpoints {
+  align-items: center;
+  background-color: var(--bg-primary);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 4866px;
+  overflow: hidden;
+  width: 1512px;
+}
+
+.macbook-pro-14-7-all-breakpoints .overlap-group5 {
+  background-image: url(../img/rectangle-3.png);
+  background-size: 100% 100%;
+  height: 430px;
+  margin-top: 642px;
+  position: relative;
+  width: 1098px;
+}
+
+.macbook-pro-14-7-all-breakpoints .rectangle-4 {
+  height: 430px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1098px;
+}
+
+.macbook-pro-14-7-all-breakpoints .class-png-def-__ini {
+  color: #ffffff;
+  font-family: "Courier New", monospace;
+  font-size: 0.1em;
+  font-weight: 300;
+  line-height: 1.65;
+  margin: 0 0 2em 0;
+  white-space: pre;
+  font-weight: normal;
+}
+.macbook-pro-14-7-all-breakpoints .about-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 113px;
+  margin-top: 128px;
+  min-height: 70px;
+  width: 419px;
+}
+
+.macbook-pro-14-7-all-breakpoints .png-as-an-intercolle-container {
+  height: 120px;
+  margin-right: 14px;
+  margin-top: 47px;
+  position: relative;
+  width: 1174px;
+}
+
+.macbook-pro-14-7-all-breakpoints .image-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 86px;
+  margin-right: 38px;
+  margin-top: 51px;
+  min-width: 420px;
+}
+
+.macbook-pro-14-7-all-breakpoints .image-6 {
+  height: 213px;
+  width: 168px;
+}
+
+.macbook-pro-14-7-all-breakpoints .image-7 {
+  height: 210px;
+  width: 166px;
+}
+
+.macbook-pro-14-7-all-breakpoints .sponsors {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 113px;
+  margin-top: 96px;
+  min-height: 70px;
+  width: 419px;
+}
+
+.macbook-pro-14-7-all-breakpoints .flex-row {
+  align-items: center;
+  display: flex;
+  margin-right: 14.86px;
+  margin-top: 52px;
+  min-width: 1207px;
+}
+
+.macbook-pro-14-7-all-breakpoints .jane-street-3 {
+  height: 110px;
+  width: 408px;
+}
+
+.macbook-pro-14-7-all-breakpoints .elevate-removebg-preview-4 {
+  height: 160px;
+  margin-left: 69px;
+  width: 313px;
+}
+
+.macbook-pro-14-7-all-breakpoints .elevate-removebg-preview-3 {
+  height: 110px;
+  margin-left: 53px;
+  object-fit: cover;
+  width: 364px;
+}
+
+.macbook-pro-14-7-all-breakpoints .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-left: 74.04px;
+  margin-top: 109px;
+  min-height: 2592px;
+  width: 1360px;
+}
+
+.macbook-pro-14-7-all-breakpoints .flex-col-1 {
+  align-self: flex-end;
+  min-height: 1904px;
+  width: 1355px;
+}
+
+.macbook-pro-14-7-all-breakpoints .overlap-group3 {
+  height: 958px;
+  margin-left: 1px;
+  position: relative;
+  width: 1354px;
+}
+
+.macbook-pro-14-7-all-breakpoints .screenshot_2023-04-03_at_537-2 {
+  height: 889px;
+  left: 454px;
+  object-fit: cover;
+  position: absolute;
+  top: 69px;
+  width: 900px;
+}
+
+.macbook-pro-14-7-all-breakpoints .title {
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 589px;
+}
+
+.macbook-pro-14-7-all-breakpoints .value-investment {
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 186px;
+  width: 507px;
+}
+
+.macbook-pro-14-7-all-breakpoints .learn-about-the-basi {
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 254px;
+  width: 626px;
+}
+
+.macbook-pro-14-7-all-breakpoints .line-5 {
+  left: 4px;
+  top: 244px;
+  width: 450px;
+}
+
+.macbook-pro-14-7-all-breakpoints .software-development {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 423px;
+  width: 507px;
+}
+
+.macbook-pro-14-7-all-breakpoints .learn-how-to-build-a {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 491px;
+  width: 626px;
+}
+
+.macbook-pro-14-7-all-breakpoints .line-6 {
+  left: 0;
+  top: 485px;
+  width: 491px;
+}
+
+.macbook-pro-14-7-all-breakpoints .quantitative-finance {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 647px;
+  width: 491px;
+}
+
+.macbook-pro-14-7-all-breakpoints .learn-the-basic-of-m {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 715px;
+  width: 633px;
+}
+
+.macbook-pro-14-7-all-breakpoints .line-7 {
+  left: 0;
+  top: 705px;
+  width: 450px;
+}
+
+.macbook-pro-14-7-all-breakpoints .investment-strategy {
+  height: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 136.04px;
+  margin-top: 58px;
+  text-align: center;
+  white-space: nowrap;
+  width: 971px;
+}
+
+.macbook-pro-14-7-all-breakpoints .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  height: 508px;
+  margin-right: 78.31px;
+  margin-top: 70px;
+  min-width: 1161px;
+}
+
+.macbook-pro-14-7-all-breakpoints .overlap-group4 {
+  height: 503px;
+  position: relative;
+  width: 356px;
+}
+
+.macbook-pro-14-7-all-breakpoints .factor-container {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  align-items: flex-start;
+  backdrop-filter: blur(4px) brightness(100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  left: 0;
+  min-height: 503px;
+  padding: 53px 29px;
+  position: absolute;
+  top: 0;
+  width: 352px;
+}
+
+.macbook-pro-14-7-all-breakpoints .factor-portfolio-construction {
+  align-self: center;
+  height: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 0.55px;
+  margin-top: 77px;
+  text-align: center;
+  width: 224px;
+}
+
+.macbook-pro-14-7-all-breakpoints .a-systematic-factor {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 217px;
+  text-align: center;
+  width: 293px;
+}
+
+.macbook-pro-14-7-all-breakpoints .vector {
+  height: 51px;
+  left: 136px;
+  position: absolute;
+  top: 41px;
+  width: 53px;
+}
+
+.macbook-pro-14-7-all-breakpoints .overlap-group8 {
+  height: 503px;
+  margin-left: 43px;
+  position: relative;
+  width: 356px;
+}
+
+.macbook-pro-14-7-all-breakpoints .overlap-group1 {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  align-items: flex-start;
+  backdrop-filter: blur(4px) brightness(100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  left: 0;
+  min-height: 503px;
+  padding: 85px 21.1px;
+  position: absolute;
+  top: 0;
+  width: 352px;
+}
+
+.macbook-pro-14-7-all-breakpoints .fundamental-analysis {
+  align-self: center;
+  height: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 0.73px;
+  margin-top: 45px;
+  text-align: center;
+  width: 224px;
+}
+
+.macbook-pro-14-7-all-breakpoints .students-will-utiliz {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 185px;
+  text-align: center;
+  width: 294px;
+}
+
+.macbook-pro-14-7-all-breakpoints .magnifying-glass-chart-solid-2 {
+  height: 57px;
+  left: 152px;
+  position: absolute;
+  top: 41px;
+  width: 54px;
+}
+
+.macbook-pro-14-7-all-breakpoints .overlap-group6 {
+  align-self: flex-end;
+  height: 503px;
+  margin-left: 50px;
+  position: relative;
+  width: 356px;
+}
+
+.macbook-pro-14-7-all-breakpoints .overlap-group2 {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  align-items: flex-end;
+  backdrop-filter: blur(4px) brightness(100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  left: 0;
+  min-height: 503px;
+  padding: 12px 28.7px;
+  position: absolute;
+  top: 0;
+  width: 352px;
+}
+
+.macbook-pro-14-7-all-breakpoints .portfolio-allocation {
+  height: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 33.72px;
+  margin-top: 113px;
+  text-align: center;
+  width: 224px;
+}
+
+.macbook-pro-14-7-all-breakpoints .once-a-select-number {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 263px;
+  text-align: center;
+  width: 294px;
+}
+
+.macbook-pro-14-7-all-breakpoints .chart-pie-solid-2 {
+  height: 57px;
+  left: 149px;
+  position: absolute;
+  top: 36px;
+  width: 54px;
+}
+
+.macbook-pro-14-7-all-breakpoints .select-placements {
+  align-self: flex-start;
+  height: 92px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 153px;
+  width: 1167px;
+}
+
+.macbook-pro-14-7-all-breakpoints .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 106px;
+  min-width: 1259px;
+}
+
+.macbook-pro-14-7-all-breakpoints .flex-row-2 {
+  align-items: center;
+  display: flex;
+  gap: 125px;
+  height: 643px;
+  min-width: 804px;
+}
+
+.macbook-pro-14-7-all-breakpoints .flex-col-2 {
+  min-height: 643px;
+  width: 317px;
+}
+
+.macbook-pro-14-7-all-breakpoints .image-6-1 {
+  height: 122px;
+  margin-right: 15px;
+  object-fit: cover;
+  width: 250px;
+}
+
+.macbook-pro-14-7-all-breakpoints .overlap-group9 {
+  height: 310px;
+  position: relative;
+  width: 317px;
+}
+
+.macbook-pro-14-7-all-breakpoints .morgan-stanley-19 {
+  height: 136px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 312px;
+}
+
+.macbook-pro-14-7-all-breakpoints .image-7-1 {
+  height: 194px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 116px;
+  width: 301px;
+}
+
+.macbook-pro-14-7-all-breakpoints .blackstone-2 {
+  height: 46px;
+  margin-right: 16px;
+  margin-top: 5px;
+  object-fit: cover;
+  width: 275px;
+}
+
+.macbook-pro-14-7-all-breakpoints .carlyle-2 {
+  height: 113px;
+  margin-right: 15px;
+  margin-top: 47px;
+  object-fit: cover;
+  width: 284px;
+}
+
+.macbook-pro-14-7-all-breakpoints .flex-col-3 {
+  margin-top: 6px;
+  min-height: 599px;
+  width: 362px;
+}
+
+.macbook-pro-14-7-all-breakpoints .citadel-2 {
+  height: 71px;
+  margin-left: 1px;
+  object-fit: cover;
+  width: 315px;
+}
+
+.macbook-pro-14-7-all-breakpoints .jane-street-3-1 {
+  height: 96px;
+  margin-top: 44px;
+  object-fit: cover;
+  width: 362px;
+}
+
+.macbook-pro-14-7-all-breakpoints .belvedere-2 {
+  height: 134px;
+  margin-top: 32px;
+  object-fit: cover;
+  width: 240px;
+}
+
+.macbook-pro-14-7-all-breakpoints .group-one-2 {
+  height: 81px;
+  margin-right: 1px;
+  margin-top: 17px;
+  object-fit: cover;
+  width: 333px;
+}
+
+.macbook-pro-14-7-all-breakpoints .quantedge-2 {
+  height: 94px;
+  margin-left: 1px;
+  margin-top: 30px;
+  width: 305px;
+}
+
+.macbook-pro-14-7-all-breakpoints .flex-col-4 {
+  margin-top: 4px;
+  min-height: 604px;
+  width: 349px;
+}
+
+.macbook-pro-14-7-all-breakpoints .amazon-3 {
+  height: 92px;
+  margin-right: 4px;
+  width: 245px;
+}
+
+.macbook-pro-14-7-all-breakpoints .microsoft-2 {
+  height: 166px;
+  margin-right: 4px;
+  margin-top: 9px;
+  width: 345px;
+}
+
+.macbook-pro-14-7-all-breakpoints .amazon-4 {
+  height: 79px;
+  margin-left: 5px;
+  margin-top: 24px;
+  object-fit: cover;
+  width: 238px;
+}
+
+.macbook-pro-14-7-all-breakpoints .space-x-2 {
+  height: 98px;
+  margin-left: 4px;
+  margin-top: 37px;
+  object-fit: cover;
+  width: 345px;
+}
+
+.macbook-pro-14-7-all-breakpoints .palantir-2 {
+  height: 62px;
+  margin-left: 4px;
+  margin-top: 37px;
+  width: 345px;
+}
+
+.macbook-pro-14-7-all-breakpoints .morgan-stanley-18 {
+  align-self: flex-start;
+  height: 1px;
+  margin-left: -718px;
+  margin-top: 310px;
+  object-fit: cover;
+  width: 1px;
+}
+
+.macbook-pro-14-7-all-breakpoints .flex-col-5 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.macbook-pro-14-7-all-breakpoints .line {
+  height: 2px;
+  position: absolute;
+}
+@media screen and (max-width: 1511px) {
+  .screen.macbook-pro-14-7-all-breakpoints {
+    display: none;
+  }
+}
+@media screen and (min-width: 1512px) {
+  .screen.iphone-14-pro-6 {
+    display: none;
+  }
+}
+
+:root {
+  --bg-primary: #00182b;
+  --bg-secondary: #000000;
+  --pumice: #c8c8c8;
+  --text-primary: #ffffff;
+
+  --font-size-l: 26px;
+  --font-size-m: 25px;
+  --font-size-s: 24px;
+  --font-size-xl: 28px;
+  --font-size-xs: 22px;
+  --font-size-xxl: 40px;
+  --font-size-xxs: 20px;
+
+  --font-family-courier_new-regular: "Courier New-Regular", Helvetica;
+  --font-family-ibm_plex_sans: "IBM Plex Sans", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+}
+.montserrat-bold-white-40px {
+  color: var(--text-primary);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ibmplexsans-normal-pumice-24px {
+  color: var(--pumice);
+  font-family: var(--font-family-ibm_plex_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-white-50px {
+  color: var(--text-primary);
+  font-family: var(--font-family-montserrat);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-white-25px {
+  color: var(--text-primary);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-white-80px {
+  color: var(--text-primary);
+  font-family: var(--font-family-montserrat);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ibmplexsans-bold-white-35px {
+  color: var(--text-primary);
+  font-family: var(--font-family-ibm_plex_sans);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-pumice-22px {
+  color: var(--pumice);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-white-60px {
+  color: var(--text-primary);
+  font-family: var(--font-family-montserrat);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-white-25px {
+  color: var(--text-primary);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-pumice-20px {
+  color: var(--pumice);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexsans-bold-white-28px {
+  color: var(--text-primary);
+  font-family: var(--font-family-ibm_plex_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-pumice-28px {
+  color: var(--pumice);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-white-32px {
+  color: var(--text-primary);
+  font-family: var(--font-family-montserrat);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-normal-pumice-26px {
+  color: var(--pumice);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
