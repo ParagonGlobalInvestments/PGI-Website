@@ -4,170 +4,255 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paragon National Group</title>
-    <link rel="icon" href="Headshots/fav.jpeg?">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/main.css">
-    
-    <!-- <link rel="stylesheet" href="css/nav.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
 </head>
-
-<!-- Navbar Contents -->
-<script src="//code.jquery.com/jquery.min.js"></script>
-<div id="nav-placeholder"></div>
-
-<script>
-    $.get("nav.html", function(data){
-        $("#nav-placeholder").replaceWith(data);
-    });
-</script>
-
 <body>
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+      $.get("nav.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+      });
+      // placeholder
+    </script>
 
-    
-  
-    
-
-    <!-- <nav class="navbar">
-        <div class="navbar__container">
-            <a href="index.html" id="navbar__logo" class="navbar__logo">
-                <img src="Headshots/logo - small diamond.jpeg" alt="logo" class="logo">
-            </a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="index.html" class="navbar__links" id="home-page">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="about.html" class="navbar__links" id="about">About Us</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="team.html" class="navbar__links" id="contact-us">Team</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="placements.html" class="navbar__links" id="placements">Placements</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="contact.html" class="navbar__links" id="contact-us">Contact</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="https://forms.gle/YPWSnXHqMDPN21fY8" target="_blank" class="navbar__links" id="contact-us">Apply</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <script src="js/nav.js"></script>  -->
-
-    <div class="background" id="particles-js">
-
-
+    <!-- Main page code -->
+    <div class="intro-section">
         <div class="intro" id="particles-js">
-            <h1 class="title">Paragon National Group</h1>
-            <h1 class="header">Intersecting Finance and Technology</h1>
-            <p>Combining value investing principles with computer and data science to create a new generation of investors.</p>
-            <div class="home-button">
-                <a href="contact.html" class="myButton">Contact Us</a> 
-            </div>
+          <h1 class="title">Paragon National Group</h1>
+          <h1 class="header">
+            Intersecting Value Investing and Quantitative Finance
+          </h1>
+          <p class="desc_club">
+            Intercollegiate student-run investment organization focused on
+            fundamental and quantitative analysis.
+          </p>
         </div>
-        
+    </div>
 
-        <!-- <div class="social">
-            <ul class="links">
-                <li class="link_lists">
-                    <a class="social_link" href="https://www.linkedin.com/company/paragonnational/" target="_blank">
-                        <img class="logos insta" src="images/linkedin.svg"/>
-                    </a>
-                </li>
-                <li class="link_lists">
-                    <a class="social_link" href="https://www.instagram.com/paragonnationalgroup/" target="_blank">
-                        <img class="logos insta"  src="images/instagram.svg"/>
-                    </a>
-                </li>
-                <li class="link_lists">
-                    <a class="social_link" href="mailto: paragonnational@gmail.com" target="_blank">
-                        <img class="logos" src="images/mail.svg"/>
-                    </a>
-                </li>
-            </ul>
-            </div> -->
+    <!-- Code Box -->
 
-            
-            
+    <div class="overlap-group8">
+        <p class="class-png-def-__ini">
+          class PNG:<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;def __init__(self,
+          fundamentals, quant):<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.fundamentals
+          = fundamentals<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.quant
+          = quant<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.universities
+          = [UChicago, UPenn]<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;def
+          purpose(finance, technology):<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return
+          finance.intersection(technology)
+        </p>
+      </div>
+
+    <!-- About -->
+    <div class="about-us">About Us</div>
+    <p class="pngdesc">
+    PNG as an intercollegiate student-run investment club with chapters
+    at the University of Chicago and the University of Pennsylvania that
+    utilizes both fundamental and quantitative-based research strategies
+    to invest into our 25,000 dollar investment fund.
+    </p>
+
+
+    <!-- Schools -->
+    <div class="schools">
+        <div class="school_card"> 
+          <img src="images/uchicago.png" class="school" alt="">
         </div>
-        
-        
-
-        <!-- <h1>
-            Paragon National Group
-        </h1>
-
-
-        
-
-     
-        <ul class="homepagelink">
-            <li class="home_list"><a class="home_link" href="about.html">About</a></li>
-            <li class="home_list"><a class="home_link"  href="team.html">Team</a></li>
-            <li class="home_list"><a class="home_link" target="_blank" href="https://forms.gle/YPWSnXHqMDPN21fY8">Apply</a></li>
-        </ul> -->
-
-        <!-- <ul class="second">
-            <li><a class="link" href="about.html">
-                <img class="homepage-logo1" src="linkedin.png" alt="">
-            </a></li>
-            <li><a class="link"  href="team.html">
-                <img class="homepage-logo2" src="instagram.png" alt="">
-            </a></li>
-            <li><a class="link" target="_blank" href="https://forms.gle/YPWSnXHqMDPN21fY8">Apply</a></li>
-        </ul> -->
-
-
-
-
-
-
-        <!-- <div class="social">
-            <ul class="links">
-                <li class="link_lists">
-                    <a class="social_link" href="Resume - CS.docx" download>
-                        <img src="https://img.icons8.com/windows/32/000000/open-resume.png"/>
-                    </a>
-                </li>
-                <li class="link_lists">
-                    <a class="social_link" href="https://github.com/jhsivadas?tab=repositories">
-                        <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
-                    </a>
-                </li>
-                <li class="link_lists">
-                    <a class="social_link" ref="https://www.linkedin.com/in/jay-sivadas-795698168/">
-                        <img src="https://img.icons8.com/windows/32/000000/linkedin.png"/>
-                    </a>
-                </li>
-                <li class="link_lists">
-                    <a class="social_link" href="https://www.instagram.com/jaysivadas/">
-                        <img src="https://img.icons8.com/windows/32/000000/instagram-new.png"/>
-                    </a>
-                </li>
-            </ul>
-            <div class="verticalLine">
-            </div>
-        </div> -->
-
+        <div class="school_card">
+          <img src="images/upenn.png" class="school" alt="">
+        </div>
     </div>
 
 
+    <!-- Sponsors -->
+    <div class="about-sponsors">Sponsors</div>
+    <div class="sponsors">
+        <div class="sponsors_card"> 
+          <a href="https://www.citadel.com/" target="_blank"><img src="Companies/Citadel.png" class="sponsor" alt=""></a>
+        </div>
+        <div class="sponsors_card">
+          <a href="https://www.janestreet.com/" target="_blank"><img src="Companies/JaneStreet.png" class="sponsor" alt=""></a>
+        </div>
+        <div class="sponsors_card">
+          <a href="https://drw.com/" target="_blank"><img src="Companies/drw.png" class="sponsor" alt=""></a>
+        </div>
+        <div class="sponsors_card">
+          <a href="https://www.elevatecareernetwork.com/" target="_blank"><img src="Companies/Elevate.jpg" class="sponsor" alt=""></a>
+        </div>
+        <div class="sponsors_card">
+          <a href="https://www.wallstreetoasis.com/" target="_blank"><img src="Companies/WSO.png" class="sponsor" alt=""></a>
+        </div>
+      </div>
+
+
+    <!-- Education -->
+    <div class="overlap-group4">
+        <h1 class="edtitle">Education</h1>
+        <div class="currsec">
+          Value Investment
+        </div>
+        <p class="currdesc">
+          Learn about the basic of accounting, valuation, modeling, and
+          bottom-up analysis of companies. Students will learn to develop
+          value-based investment research on publicly traded companies
+        </p>
+        <div class="currsec">
+          Software Development
+        </div>
+        <p class="currdesc">
+          Learn how to build applications and conduct complex statistical
+          analysis using Python. Students will learn to extract unique
+          insight from financial data.
+        </p>
+        <div class="currsec">
+          Quantitative Finance
+        </div>
+        <p class="currdesc">
+          Learn the basic of modern portfolio theory, linear factor pricing
+          models, and factor portfolio construction algorithms. Students
+          will be able to build software applications that systematically
+          construct a portfolio of securities.
+        </p>
+      </div>
+
+
+      <!-- Investment Strategy -->
+
+      <h1 class="investment-strategy">Investment Strategy</h1>
+
+      <div class="overlap-group-container">
+
+        <div class="overlap-group">
+          <div class="overlap-group3">
+            <div
+              class="factor-portfolio-construction montserrat-bold-white-25px"
+            >
+              Factor Portfolio Construction
+            </div>
+            <p class="a-factor-portfolio-c montserrat-normal-pumice-20px">
+              A factor portfolio construction algorithm will analyze all
+              public companies identify a universe (”factor basket”) of
+              100-200 equities that have potential quantitative upside.
+            </p>
+          </div>
+          <!-- <img class="vector" src="images/vector.svg" alt="Vector" /> -->
+        </div>
 
 
 
+        <div class="overlap-group">
+          <div class="overlap-group1">
+            <div
+              class="fundamental-analysis montserrat-bold-white-25px"
+            >
+              Fundamental Analysis
+            </div>
+            <p class="students-will-utiliz montserrat-normal-pumice-20px">
+              Students will utilize a bottom-up fundamental approach to
+              conduct competitor analysis, build relative and intrinsic
+              valuation models, and identify mispriced assets.
+            </p>
+          </div>
+          <!-- <img
+            class="magnifying-glass-chart-solid-2"
+            src="images/magnifying-glass-chart-solid-2.svg"
+            alt="magnifying-glass-chart-solid 2"
+          /> -->
+        </div>
 
-    
-<!--     
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script> -->
+
+
+        <div class="overlap-group">
+          <div class="overlap-group2">
+            <div
+              class="portfolio-allocation  montserrat-bold-white-25px"
+            >
+              Portfolio Allocation
+            </div>
+            <p class="once-a-select-number montserrat-normal-pumice-20px">
+              Once a select number of assets are selected, a novel portfolio
+              allocation algorithm, based off mean-variance, determines
+              individual asset weightings to optimize out-of-sample total
+              portfolio Sharpe.
+            </p>
+          </div>
+          <!-- <img
+            class="chart-pie-solid-2"
+            src="images/chart-pie-solid-2.svg"
+            alt="chart-pie-solid 2"
+          /> -->
+        </div>
+      </div>
+
+
+      <!-- Placements -->
+
+
+      <h1 class="placements">Select Placements</h1>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="Companies/Goldman Sachs.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Citadel.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Meta.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Morgan Stanley.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/JaneStreet.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Microsoft.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/jpmorgan.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Belvedere.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Amazon.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Blackstone.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/GroupOne.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Palantir.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Carlyle.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/peak6.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/SpaceX.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/dodge.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Quantedge.png" class="grid-img">
+        </div>
+        <div class="grid-item">
+          <img src="Companies/Finalyze.png" class="grid-img">
+        </div>
+        <!-- Add more grid-items as needed -->
+      </div>
+        
+      
+
 </body>
 </html>

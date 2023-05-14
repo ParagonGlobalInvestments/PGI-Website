@@ -1,0 +1,556 @@
+body {
+  width: 100%;
+}
+
+.intro {
+  padding: 5rem;
+  padding-bottom: 6rem;
+  /* padding-left: 10rem; */
+  width: 80%;
+  background: #00182a;
+  text-align: left; /* Added to align text left by default */
+}
+
+.title {
+  font-size: 6rem;
+  color: white;
+  margin-bottom: 0;
+}
+
+.header {
+  font-size: 3rem;
+  color: #8aa0ac;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.desc_club {
+  font-size: 2rem;
+  color: #8aa0ac;
+  line-height: 130%;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .intro {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 5rem;
+  }
+  
+  .header {
+    font-size: 3rem;
+  }
+  
+  .desc_club {
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .intro {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+  }
+  
+  .header {
+    font-size: 2rem;
+  }
+  
+  .desc_club {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+  .intro {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+  
+  .header {
+    font-size: 2rem;
+  }
+  
+  .desc_club {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+/* Code Box */
+.overlap-group8 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-3.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 430px;
+  margin-left: 15%;
+  width: 70%;
+  padding: 44px 35px;
+}
+
+.class-png-def-__ini {
+  color: var(--text-primary);
+  font-family: "Courier New", monospace;
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 330px;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .overlap-group8 {
+    display: none;
+  }
+}
+
+/* About Us */
+.about-us {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.pngdesc {
+  width: 70%;
+  max-width: 80%;
+  margin: 0 auto;
+
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+
+/* Schools */
+.schools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 46px;
+  margin: auto;
+  max-width: 800px; /* adjust this value according to your needs */
+}
+
+.schools .school_card {
+  width: 13rem;
+  margin: 20px;
+  /* padding-left: 10rem; */
+  padding-right: 50px;
+}
+
+.school {
+  width: 12rem;
+  /* padding-left: 1rem; */
+}
+
+
+/* Sponsors */
+
+.about-sponsors {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
+  /* padding-bottom: 0rem; */
+}
+
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* padding: 10px; */
+  gap: 46px;
+  /* margin-top: 50px; */
+  
+  width: 80%; /* set width to 100% */
+  margin: 0 auto; /* center the container horizontally */
+}
+
+.sponsors .sponsors_card {
+  width: 20rem;
+  margin-top: 20px;
+  padding-right: 50px;
+}
+
+.sponsor {
+  width: 20rem;
+  padding-left: 1rem;
+}
+
+
+@media (max-width: 900px) {
+
+  .sponsor {
+      width: 17rem;
+      padding-left: 3.5rem;
+      padding-top: 2rem;
+  }
+
+  .school {
+      width: 10rem;
+      /* padding-left: 5rem; */
+  }
+
+  .schools {
+      padding-left: 3.5rem;
+  }
+
+}
+
+/* Education */
+
+
+.overlap-group4 {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin-left: 100px;
+margin-top: 50px;
+width: 50%;
+padding-bottom: 5rem;
+}
+
+.currsec {
+text-align: center;
+font-size: 3em;
+color: white;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+.currdesc {
+/* width: 70%; */
+/* max-width: 80%; */
+margin: 0 auto;
+
+/* text-align: center; */
+font-size: 2em;
+padding-bottom: 2rem;
+}
+
+.edtitle {
+  text-align: center;
+  font-size: 7em;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+
+
+@media (max-width: 900px) {
+  .overlap-group4 {
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+  }
+
+  .currsec {
+    font-size: 3rem;
+    margin-top: 30px;
+  }
+
+  .currdesc {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .edtitle {
+    font-size: 4rem;
+  }
+
+  .investment-strategy {
+      font-size: 4rem;
+  }
+}
+
+
+/* Investment Strategy */
+
+.investment-strategy {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.overlap-group-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+  text-align: center; /* Add this line */
+  /* padding-left: 8vw; */
+  padding-left: 3rem;
+}
+.overlap-group {
+  height: 503px;
+  margin-left: 0px;
+  position: relative;
+  width: 356px;
+  margin-bottom: 3rem;
+}
+
+.overlap-group3 {
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28.7px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  backdrop-filter: blur(4px) brightness(100%);
+  min-height: 503px;
+  width: 300px;
+  gap: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.factor-portfolio-construction {
+  align-self: center;
+  height: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 0.55px;
+  margin-top: 77px;
+  text-align: center;
+  width: 224px;
+}
+
+.a-factor-portfolio-c {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 217px;
+  text-align: center;
+  width: 240px;
+}
+
+.vector {
+  height: 46px;
+  left: 141px;
+  position: absolute;
+  top: 52px;
+  width: 53px;
+}
+
+
+
+.overlap-group1 {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28.7px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  backdrop-filter: blur(4px) brightness(100%);
+  min-height: 503px;
+  width: 300px;
+  gap: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fundamental-analysis {
+  align-self: center;
+  height: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 0.55px;
+  margin-top: 77px;
+  text-align: center;
+  width: 224px;
+}
+
+.students-will-utiliz {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 217px;
+  text-align: center;
+  width: 240px;
+}
+
+.magnifying-glass-chart-solid-2 {
+  height: 57px;
+  left: 152px;
+  position: absolute;
+  top: 41px;
+  width: 54px;
+}
+
+
+
+.overlap-group2 {
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28.7px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.16) 100%
+  );
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  backdrop-filter: blur(4px) brightness(100%);
+  min-height: 503px;
+  width: 300px;
+  gap: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-allocation {
+  align-self: center;
+  height: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 0.55px;
+  margin-top: 77px;
+  text-align: center;
+  width: 224px;
+}
+
+.once-a-select-number {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 217px;
+  text-align: center;
+  width: 240px;
+  /* order: 1; */
+}
+
+.chart-pie-solid-2 {
+height: 57px;
+left: 149px;
+position: absolute;
+top: 36px;
+width: 54px;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+  .investment-strategy {
+      font-size: 3rem;
+  }
+
+  .overlap-group-container {
+      padding-left: 4rem;
+      /* align-items: center; */
+  }
+}
+
+@media (max-width: 400px) {
+
+
+  .investment-strategy {
+      font-size: 3rem;
+  }
+
+  .overlap-group-container {
+      padding-left: 8vw;
+      /* align-items: center; */
+  }
+}
+
+
+/* Placements */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(6, 1fr); /* 6 rows */
+  gap: 0px;
+  width: 80%; /* 80% width of screen */
+  /* margin: 0 auto; */
+  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(9, 1fr); /* 9 rows */
+  }
+}
+.grid-img {
+  max-width: 80%; /* Set the max-width to ensure the image doesn't exceed the width of its container */
+  max-height: 100%; /* Set the max-height to ensure the image doesn't exceed the height of its container */
+  object-fit: contain; /* Resize the image to fit inside its container without stretching or distorting */
+  display: block; /* Remove any default spacing around the image */
+  margin: auto; /* Center the image horizontally */
+  width: 20rem;
+}
+
+
+.placements {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 5rem;
+}
+
+@media (max-width: 900px) {
+
+  .placements {
+      font-size: 2.5rem;
+  }
+
+}
