@@ -1,106 +1,98 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>About Us</title>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width", initial-scale="1", minimum-scale="1">
-	<link rel="icon" href="Headshots/fav.jpeg?">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/investment.css">
-    
-	
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  <head>
+    <title>About Us</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width"
+      ,
+      initial-scale="1"
+      ,
+      minimum-scale="1"
+    />
+    <link rel="icon" href="Headshots/fav.jpeg?" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/investment.css" />
 
-<!-- Navbar Contents -->
-<div id="nav-placeholder"></div>
-<script src="//code.jquery.com/jquery.min.js"></script>
-<script>
-	$.get("nav.html", function(data){
-		$("#nav-placeholder").replaceWith(data);
-	});
-	// placeholder
-</script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
-	<div class="container">
-		<div class="about-us">
-			<div class="who-we-are">
-				<h4 class="curriculum">Investment Fund</h4>
-				<span>
-                Thanks to the generous gifts of donors and sponsors, PNG invests out of a 25,000 dollar national flagship investment fund into real publicly traded equities. 
-                All active members of PNG, both investment analysts and quantitative analysts, develop research reports and relevant models 
-                that contributes directly to the strategies utilized in the fund. 
-				 </span>
-				<br>
-				<span>
-                    The goal of the investment fund is to provide students with real-world application to the topics taught in the 
-                    educational portion. Students can apply both fundamental analysis and systematic algorithms to identify
-                    potential asset upside and optimize returns.
-					<br>
-				</span>
-			</div>		
-		</div>
+  <!-- Navbar Contents -->
+  <div id="nav-placeholder"></div>
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+    // placeholder
+  </script>
 
+  <body>
+    <div class="container">
+      <div class="about-us">
+        <div class="who-we-are">
+          <h4 class="curriculum">Investment Funds</h4>
+          <span>
+            Thanks to the generous gifts of donors and sponsors, PNG invests
+            25,000 dollars into the PNG Value Fund and PNG Systematic Fund.
+            Members of PNG either develop pitches on mispriced assets or
+            research and develop novel algorithmic trading strategies that will
+            be invested out of their respective funds.
+          </span>
+          <br />
+          <span>
+            The goal of the investment fund is to provide students with
+            real-world application to the topics taught in the educational
+            portion. Students can apply both fundamental analysis and systematic
+            algorithms to identify potential asset upside and optimize returns.
+            <br />
+          </span>
+        </div>
 
-	
+        <h4 class="curriculum">Investment Strategy</h4>
+        <div class="education">
+          <div class="education-holder">
+            <div class="education-body">
+              <h3>PNG Value Fund</h3>
+              <p>
+                The PNG Value Fund is a well-diversified long-only investment
+                fund that invests into publicly traded US equities. Investments
+                are selected through fundamental, bottom-up analysis to identify
+                mispriced assets that will deliver long-term returns on capital
+                to shareholders. Our portfolio allocation focuses on
+                quantitative portfolio allocation metrics to optimize the
+                portfolios total risk-return profile and generate uncorrelated
+                returns
+              </p>
+            </div>
+          </div>
 
-			<h4 class="curriculum">Investment Strategy</h4>
-			<div class="education">
-				<div class="education-holder">
-					<div class="education-body">
-						<h3>Part 1: Systematic Factor Construction Algorithm</h3>
-						<p>PNG uses factor analysis to isolate a smaller universe of assets that fit within a quantitative bound with 
-                            identified price upside. The model runs a multivariate regression of every public company with a market cap 
-                            above $1bn onto the value and momentum factors. Parameters are applied to the results of the regression
-                            to isolate assets that fall within the bounds. 
-                             The Quantitative Development team at national and chapter levels will work to further develop models to continuously improve the 
-                             asset selection as well as developing other data visualization software to help with investment process.
-					</div>
-				</div>
-			
-			
-				<div class="education-holder">
-					<div class="education-body">
-						<h3>Part 2: Fundamental Analysis</h3>
-						<p>Once the assets are reduced based off the factor model, portfolio managers can select a 
-                            few assets from the list for each analyst to conduct primary research on. The portfolio manager will then
-                             choose one of these companies, after reading the primary research, for their analyst group to work
-                             together to do an in-depth value-based investment analysis on.
-                             This involves a qualitative understanding of the company and a quantitative analysis of value 
-                             using intrinsic and relative valuation techniques.</p>
-						</div>
-				</div>
-			
-				
-
-
-					<div class="education-holder3">
-						<div class="education-body">
-							<h3>Part 3: Portfolio Allocation</h3>
-							<p>PNG utilizes a novel adjustment of the mean-variance portfolio allocation formula. 
-                                The novel adjustment diagonalizes the covariance matrix so only the covariances between the asset and itself remain 
-                                (simply the variances of the assets in the matrix). This makes the resulting mean-variance portfolio less sensitive 
-                                to the in-sample volatility of the assets, has a long-only asset weighting structure, and results in a better out-of-sample 
-                                Sharpe.
-                            Students on the quantitative development committees can work to optimize or construct new allocation measures for the fund.</p>
-							</div>
-					</div>
-			</div>
-
-			
-		</div>
-
-	</div>
-
-	</div>
-	
-
-	
-
-
-</body>
+          <div class="education-holder">
+            <div class="education-body">
+              <h3>PNG Systematic Fund</h3>
+              <p>
+                The PNG Systematic Fund utilizes advanced mathematical analysis
+                to develop novel systematic algorithmic trading strategies that
+                predict price movements and generate risk-adjusted returns. Our
+                fund leverages cutting-edge quantitative models, historical data
+                analysis, and machine learning algorithms to make informed
+                investment decisions with unparalleled precision. Students
+                design, research, develop, and backtest their trading algorithms
+                to be allocated a portion of the fund
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
-
