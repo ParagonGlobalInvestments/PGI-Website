@@ -548,7 +548,7 @@ body {
 .subcaption {
   /* existing styles */
   text-align: center; /* Add this line to center-align the subcaption */
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -576,5 +576,14 @@ body {
   .wrapper .right {
     width: 50%;
     height: 80vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .subcaption {
+    /* existing styles */
+    text-align: center; /* Add this line to center-align the subcaption */
+    width: 100%;
+    margin: 0 auto;
   }
 }
