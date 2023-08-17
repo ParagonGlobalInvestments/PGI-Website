@@ -145,7 +145,8 @@ body {
   padding: 10px;
   gap: 46px;
   margin: auto;
-  max-width: 800px; /* adjust this value according to your needs */
+  width: 80%;
+  /* max-width: 900px; adjust this value according to your needs */
 }
 
 .schools .school_card {
@@ -158,6 +159,10 @@ body {
 .school {
   width: 12rem;
   /* padding-left: 1rem; */
+}
+
+.NYU {
+  width: 11rem;
 }
 
 /* Sponsors */
