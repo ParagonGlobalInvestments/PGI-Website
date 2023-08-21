@@ -1,0 +1,208 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  background: #00182a;
+}
+
+/* .container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #00182a;
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+} */
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.who-we-are {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.who-we-are span {
+  width: 60%;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: whitesmoke;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.card-img {
+  border-radius: 5px;
+}
+.cards .card {
+  width: 16rem;
+  margin: 20px;
+}
+.card p {
+  font-size: 14px;
+}
+
+.active {
+  border-bottom: 1px solid #fff;
+}
+
+.leadership {
+  padding-top: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.card-img1 {
+  border-radius: 5px;
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Arjun\ Neervannan.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card-img2 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Saahil\ Kamulkar.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card-img3 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Ria\ Sharma.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img4 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Arman\ Ashaboglu.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card-img5 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Nicole\ Rong.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card-img6 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Aryan\ Singh.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img7 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Olgierd\ Fudali.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Junior team */
+
+.card-img8 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Prithvi\ Bale.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card-img9 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Manya\ Gauba.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.card-img10 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Andy\ Mei.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img11 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Ashish\ Pothireddy.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img12 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Grant\ Mao.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-img13 {
+  width: 100%;
+  height: 20rem;
+  background-image: url("../Headshots/Anthony\ Steimle.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.linkedin {
+  width: 25px;
+}
+
+.linkedin:hover {
+  filter: invert(27%) sepia(43%) saturate(3570%) hue-rotate(179deg)
+    brightness(96%) contrast(89%);
+}
+
+.slider {
+  display: none;
+}
+
+.container2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00182a;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
