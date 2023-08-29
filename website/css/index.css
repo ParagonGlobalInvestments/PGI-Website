@@ -2,34 +2,31 @@ body {
   width: 100%;
 }
 
+.intro {
+  padding: 5rem;
+  padding-bottom: 12vw;
+  width: 80%;
+  background: #00182a;
+  text-align: left;
+}
+
 /* .intro {
   padding: 5rem;
   padding-bottom: 6rem;
-  width: 80%;
-  background: #00182a;
-  text-align: left; 
-} */
-
-.intro {
-  padding: 5rem;
-  padding-bottom: 6rem;
-  /* padding-left: 10rem; */
   width: 60%;
   background: #00182a;
   text-align: left;
-  float: left; /* Added to enable side-by-side layout */
+  float: left; 
   box-sizing: border-box;
-}
+} */
 
-.card img {
-  width: 100%; /* Set the maximum width of the image to 40% of the .intro_card */
-  display: block; /* Remove any default spacing below the image */
-  margin: 0 auto; /* Center the image horizontally */
-}
+/* .card img {
+  width: 100%; 
+  display: block; 
+  margin: 0 auto;
+} */
 
-/* Card tilt */
-
-.card {
+/* .card {
   width: 600px;
   height: 500px;
   font-size: 1.75rem;
@@ -46,17 +43,17 @@ body {
   transform: translateZ(50px);
 }
 
-/* Media query for screens with a width up to 1200 pixels */
+
 @media (max-width: 1200px) {
   .intro {
-    width: 100%; /* Expand to full width */
-    padding-right: 0; /* Remove right padding */
+    width: 100%; 
+    padding-right: 0; 
   }
 
   .card {
-    display: none; /* Hide the intro_card */
+    display: none; 
   }
-}
+} */
 
 .title {
   font-size: 6rem;
@@ -237,7 +234,7 @@ body {
   margin: 0 auto; /* center the container horizontally */
 }
 
-.sponsors .sponsors_card {
+.sponsors .card {
   width: 20rem;
   margin-top: 20px;
   padding-right: 50px;
