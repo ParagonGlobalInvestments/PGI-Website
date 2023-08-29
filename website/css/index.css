@@ -2,13 +2,60 @@ body {
   width: 100%;
 }
 
+/* .intro {
+  padding: 5rem;
+  padding-bottom: 6rem;
+  width: 80%;
+  background: #00182a;
+  text-align: left; 
+} */
+
 .intro {
   padding: 5rem;
   padding-bottom: 6rem;
   /* padding-left: 10rem; */
-  width: 80%;
+  width: 60%;
   background: #00182a;
-  text-align: left; /* Added to align text left by default */
+  text-align: left;
+  float: left; /* Added to enable side-by-side layout */
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%; /* Set the maximum width of the image to 40% of the .intro_card */
+  display: block; /* Remove any default spacing below the image */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Card tilt */
+
+.card {
+  width: 600px;
+  height: 500px;
+  font-size: 1.75rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+.card h1,
+.card h2 {
+  transform: translateZ(50px);
+}
+
+/* Media query for screens with a width up to 1200 pixels */
+@media (max-width: 1200px) {
+  .intro {
+    width: 100%; /* Expand to full width */
+    padding-right: 0; /* Remove right padding */
+  }
+
+  .card {
+    display: none; /* Hide the intro_card */
+  }
 }
 
 .title {
