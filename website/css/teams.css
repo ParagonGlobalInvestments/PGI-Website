@@ -1,0 +1,105 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  background: #00182a;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.who-we-are {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.who-we-are span {
+  width: 60%;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: whitesmoke;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+.card-img {
+  border-radius: 5px;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.cards .card {
+  width: 16rem;
+  margin: 20px;
+}
+.card p {
+  font-size: 14px;
+}
+
+.active {
+  border-bottom: 1px solid #fff;
+}
+
+.leadership {
+  padding-top: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.card-img {
+  border-radius: 5px;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.linkedin {
+  width: 25px;
+}
+
+.linkedin:hover {
+  filter: invert(27%) sepia(43%) saturate(3570%) hue-rotate(179deg)
+    brightness(96%) contrast(89%);
+}
+
+.slider {
+  display: none;
+}
+
+.container2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00182a;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
