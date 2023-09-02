@@ -31,7 +31,7 @@ body {
   background-size: cover;
   min-width: 100%;
   background-position: center center;
-  color: #fff;
+  color: #f6f6f6;
   overflow: hidden;
   padding-top: 2rem;
   /* position:relative; */
@@ -134,7 +134,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #eee;
+  color: #f6f6f6;
   padding: 8px 48px;
   font-weight: bold;
   text-align: center;
@@ -295,7 +295,7 @@ h5 {
 
 .home-button {
   /* position: absolute; */
-  padding-top: 4vh;
+  padding-top: 1em;
   left: 11%;
   top: 75%;
   /* padding-top: 5vh;
@@ -305,7 +305,7 @@ h5 {
 .myButton {
   padding-top: 10px;
   background-color: transparent;
-  border-radius: 2vh;
+  border-radius: 2em;
   /* border:.1vw solid #e85e4f; */
   border: 0.1vw solid black;
   /* color: #76323F; */
@@ -313,7 +313,7 @@ h5 {
   color: black;
   /* color:#e85e4f; */
   font-family: Arial;
-  font-size: 1.5vw;
+  font-size: 1.2em;
   padding: 10px 15px;
   text-decoration: none;
   /* text-shadow:0px 1px 0px #e85e4f; */
@@ -325,4 +325,30 @@ h5 {
 .myButton:active {
   /* position:relative; */
   top: 1px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.flex-item {
+  flex: 1;
+  max-width: calc(50% - 10px); /* 50% width with gap */
+}
+
+.app_desc {
+  font-size: 1em;
+  color: black;
+}
+
+.line {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.app_form {
+  padding-top: 1em;
 }
