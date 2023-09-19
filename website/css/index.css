@@ -99,6 +99,7 @@ body {
   margin-left: 15%;
   width: 70%;
   padding: 44px 35px;
+  transform: translateY(20%); /* Move the div 50% down */
 }
 
 .class-png-def-__ini {
