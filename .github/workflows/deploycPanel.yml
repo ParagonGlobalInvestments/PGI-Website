@@ -1,33 +1,16 @@
-name: Publish Website to CPanel
-on:
-  push:
-    branches:
-      - master
-    paths:
-      - website/**
+on: push
+name: 🚀 Deploy website on push
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
-    runs-on: ubuntu-latest # Specify the runner explicitly
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2 # Updated to use the latest version
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        fetch-depth: 2
-    - name: Configure Git
-      run: |
-        git config user.email "your@email.com"
-        git config user.name "Your Name"
-      # You may need to set up other Git configurations here as well
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@v4 # Updated to use a version tag
-      with:
-        local-dir: website/
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-    - name: Upload Environment Files
-      run: |
-        echo "FTP_SERVER=${{ secrets.FTP_SERVER }}" >> $GITHUB_ENV
-        echo "FTP_USERNAME=${{ secrets.FTP_USERNAME }}" >> $GITHUB_ENV
-        echo "FTP_PASSWORD=${{ secrets.FTP_PASSWORD }}" >> $GITHUB_ENV
