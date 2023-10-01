@@ -8,15 +8,26 @@ on:
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # Specify the runner explicitly
     steps:
-    - uses: actions/checkout@v2.1.0
+    - name: Checkout code
+      uses: actions/checkout@v2 # Updated to use the latest version
       with:
         fetch-depth: 2
+    - name: Configure Git
+      run: |
+        git config user.email "your@email.com"
+        git config user.name "Your Name"
+      # You may need to set up other Git configurations here as well
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      uses: SamKirkland/FTP-Deploy-Action@v4 # Updated to use a version tag
       with:
         local-dir: website/
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+    - name: Upload Environment Files
+      run: |
+        echo "FTP_SERVER=${{ secrets.FTP_SERVER }}" >> $GITHUB_ENV
+        echo "FTP_USERNAME=${{ secrets.FTP_USERNAME }}" >> $GITHUB_ENV
+        echo "FTP_PASSWORD=${{ secrets.FTP_PASSWORD }}" >> $GITHUB_ENV
