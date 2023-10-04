@@ -116,6 +116,11 @@ span {
   width: 11rem;
 }
 
+.Columbia {
+  width: 18rem;
+  padding-left: 0px;
+}
+
 .schools {
   display: flex;
   justify-content: center;
