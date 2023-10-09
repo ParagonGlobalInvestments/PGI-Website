@@ -1,36 +1,231 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Apply</title>
-    <link rel="icon" href="Headshots/fav.jpeg?" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width"
-      ,
-      initial-scale="1"
-      ,
-      minimum-scale="1"
-    />
-    <link rel="stylesheet" type="text/css" href="css/apply.css" />
+    <title>Team</title>
+    <link rel="shortcut icon" href="Headshots/Diamond.jpeg" />
+    <link rel="stylesheet" type="text/css" href="css/teams.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-
-    <!-- <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="icon" href="Headshots/fav.jpeg?" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
+
+  <!-- Navbar Contents -->
+  <div id="nav-placeholder"></div>
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+
   <body>
-    <!-- Navbar Contents -->
-    <div id="nav-placeholder"></div>
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <script>
-      $.get("nav.html", function (data) {
-        $("#nav-placeholder").replaceWith(data);
-      });
-    </script>
+    <!-- Actual Content -->
 
     <div class="container">
-      <h3>Coming Soon!</h3>
+      <div class="about-us">
+        <div class="president">
+          <h4 class="leadership">Executive Team</h4>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <img class="card-img" src="Headshots/Columbia/Philip" />
+            <div class="card-body">
+              <h3>Philip Bardon</h3>
+
+              <span class="title">Co-President</span>
+              <p>
+                Philip Bardon is a second-year applied math student. Last year,
+                he was a Portfolio Manager at the Dartmouth Investment and
+                Philanthropy Program and the Co-CEO of the largest student-run
+                business on campus. Over the summer, he interned at Certares
+                Management, a private equity firm that has notable investments
+                in Amex GBT, Hertz, and TripAdvisor.
+              </p>
+              <a
+                class="linked_holder"
+                href="https://www.linkedin.com/in/philip-bardon-b19570236/"
+                target="_blank"
+              >
+                <img class="linkedin" src="images/linkedin.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img" src="Headshots/Columbia/Ali.jpg" />
+            <card class="card-body">
+              <h3>Ali Alomari</h3>
+              <span class="title">Co-President</span>
+              <p>
+                Ali Alomari is a third-year economics student at Columbia
+                College. In addition to serving as Co-President of the Columbia
+                chapter of PNG, Ali is a member of Alpha Kappa Psi, Columbia
+                Alpha Partners, and the Columbia College Student Council. He has
+                a variety of experiences within the financial industry,
+                previously interning with Weichert, Realtors, and Aflac, and
+                will be joining Bank of America as a 2024 summer analyst in New
+                York.
+              </p>
+              <a
+                class="linked_holder"
+                href="https://www.linkedin.com/in/ali-alomari-567468263/"
+                target="_blank"
+              >
+                <img class="linkedin" src="images/linkedin.png" alt="" />
+              </a>
+            </card>
+          </div>
+        </div>
+      </div>
+
+      <!-- Investment Team -->
+
+      <div class="president">
+        <h4 class="leadership">Committee Members</h4>
+      </div>
+      <div class="about-us">
+        <div class="cards">
+          <div class="card">
+            <img class="card-img" src="Headshots/Columbia/Kaiji" />
+            <div class="card-body">
+              <h3>Kaiji Uno</h3>
+              <span class="title">Head of Quantitative Research</span>
+              <p>
+                Kaiji Uno is a third-year student at Columbia College majoring
+                in mathematics. Last summer, Kaiji interned as a Quantitative
+                Researcher at Morgan Stanley, and he also has internship
+                experience at Accenture and the U.S. Department of Defense.
+                Apart from PNG, he is also involved in Columbia Alpha Partners
+                and Columbia University Orchestra. In his free time, he enjoys
+                playing the cello and watching Japanese comedy.
+              </p>
+              <a
+                class="linked_holder"
+                href="https://www.linkedin.com/in/kaijiuno/"
+                target="_blank"
+              >
+                <img class="linkedin" src="images/linkedin.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="Headshots/Columbia/Nischal" />
+            <div class="card-body">
+              <h3>Nischal Chennuru</h3>
+              <span class="title">Investment Committee</span>
+              <p>
+                Nischal Chennuru is a third year computer science and economics
+                student in the Columbia University School of Engineering and
+                Applied Science. Apart from being an (insert role here) in the
+                Columbia chapter of PNG, he is a member of the CU Brazilian Jiu
+                Jitsu Club. He has experience in growth equity from his
+                internship at Technology Crossover Ventures as well as in
+                private equity, project finance, and public and private debt
+                investing from his internship at Tikehau Capital. In his free
+                time he enjoys kickboxing and jiu jitsu. He will be interning at
+                Deutsche Bank New York next summer in the Investment Banking
+                division.
+              </p>
+              <a
+                class="linked_holder"
+                href="https://www.linkedin.com/in/nischal-chennuru-6555441b3/"
+                target="_blank"
+              >
+                <img class="linkedin" src="images/linkedin.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="president">
+          <h4 class="leadership">Portfolio Managers</h4>
+        </div>
+
+        <div class="about-us">
+          <div class="cards">
+            <div class="card">
+              <img class="card-img" src="Headshots/Columbia/Anupam.jpg" />
+              <card class="card-body">
+                <h3>Anupam Bhakta</h3>
+                <span class="title">Quantitative Portfolio Manager</span>
+                <p>
+                  Anupam (Anu) Bhakta is a junior at Columbia University where
+                  he is double majoring in Mathematics and Computer Science. He
+                  is currently doing research in robust nonlinear trajectory
+                  optimization with a professor at Columbia University. In the
+                  past, he has also done research in applied statistics and
+                  machine learning with professors from Baruch College and
+                  Caltech. In industry, Anu has done a quantitative research
+                  internship at Dimensional Fund Advisors. As he enjoys the
+                  problem-solving involved with mathematics, he plans to
+                  continue to do research in one form or another.
+                </p>
+                <a
+                  class="linked_holder"
+                  href="https://www.linkedin.com/in/anupam-bhakta/"
+                  target="_blank"
+                >
+                  <img class="linkedin" src="images/linkedin.png" alt="" />
+                </a>
+              </card>
+            </div>
+            <div class="card">
+              <img class="card-img" src="Headshots/Columbia/Tony" />
+              <card class="card-body">
+                <h3>Tony Chen</h3>
+                <span class="title">Quantitative Portfolio Manager</span>
+                <p>
+                  Tony Chen is a third-year computer science student. He is also
+                  a member of Columbia Alpha Partners. He has worked as research
+                  intern at Voloridge Investment Management. He also worked on
+                  various research projects at Columbia in machine learning
+                  areas like spoken language processing, computer vision, and
+                  reinforcement learning.
+                </p>
+                <a
+                  class="linked_holder"
+                  href="https://www.linkedin.com/in/haozhe-chen/"
+                  target="_blank"
+                >
+                  <img class="linkedin" src="images/linkedin.png" alt="" />
+                </a>
+              </card>
+            </div>
+            <div class="card">
+              <img class="card-img" src="Headshots/Columbia/Ismail" />
+              <card class="card-body">
+                <h3>Ismail Omar</h3>
+                <span class="title">Quantitative Portfolio Manager</span>
+                <p>
+                  Ismail Omar is a third-year Math and Computer Science student
+                  at Columbia University. He is head of the Global Markets
+                  Division of Columbia Alpha Partners. A preprofessional club
+                  focused on recruitment for careers in finance. Ismail has done
+                  trading internships at HSBC and will be returning next summer
+                  to continue working in trading. He enjoys working on
+                  challenging problems and applying mathematics to produce
+                  solutions.
+                </p>
+                <a
+                  class="linked_holder"
+                  href="https://www.linkedin.com/in/ismail-omar-7596a1211/"
+                  target="_blank"
+                >
+                  <img class="linkedin" src="images/linkedin.png" alt="" />
+                </a>
+              </card>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
