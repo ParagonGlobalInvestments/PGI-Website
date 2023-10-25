@@ -5,36 +5,67 @@ body {
 .intro {
   padding: 5rem;
   padding-bottom: 6rem;
-  /* padding-left: 10rem; */
-  width: 80%;
+  width: 100%;
   background: #00182a;
-  text-align: left; /* Added to align text left by default */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro-section {
-  height: 50vh;
+  display: flex; /* Use flexbox to align items */
+  align-items: flex-start; /* Start items at the beginning */
+  justify-content: center; /* Align items horizontally in the middle */
+  height: 100vh; /* 100% of the viewport height */
+  padding-top: 15vh; /* Push content down by 40% of the viewport height */
 }
 
 .title {
-  font-size: 6rem;
+  font-size: 6vw;
   color: white;
   margin-bottom: 0;
 }
 
 .header {
-  font-size: 3rem;
+  font-size: 3vw;
   color: #8aa0ac;
   margin-top: 10px;
   margin-bottom: 0;
 }
 
 .desc_club {
-  font-size: 2rem;
+  font-size: 1.7vw;
   color: #8aa0ac;
   line-height: 130%;
   margin-top: 10px;
   margin-bottom: 0;
   padding-top: 10px;
+}
+
+.scroll-container {
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px; /* Increasing bottom padding for space between text and screen bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.scroll-chevron {
+  display: inline-block;
+  width: 2vw; /* Doubling width for 2x size */
+  height: 2vw; /* Doubling height for 2x size */
+  border-left: 3px solid white; /* Doubling border width for 2x size */
+  border-bottom: 3px solid white; /* Doubling border width for 2x size */
+  transform: rotate(-45deg); /* Rotate in the opposite direction to form a V */
+  margin-bottom: 20px; /* Doubling margin for 2x size */
+}
+
+.scroll-text {
+  color: white;
+  font-size: 2vw; /* Doubling font size for 2x size */
+  text-align: center;
 }
 
 @media screen and (max-width: 1100px) {
@@ -53,6 +84,16 @@ body {
 
   .desc_club {
     font-size: 2rem;
+  }
+
+  .scroll-container {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .scroll-container {
+    display: none;
   }
 }
 
@@ -172,7 +213,7 @@ body {
 }
 
 .Columbia {
-  width: 18rem;
+  width: 13rem;
   padding-left: 0px;
 }
 
@@ -226,6 +267,11 @@ body {
 
   .schools {
     padding-left: 3.5rem;
+  }
+
+  .Columbia {
+    width: 10rem;
+    padding-left: -30spx;
   }
 }
 
@@ -532,6 +578,7 @@ body {
   font-size: 5rem;
   text-align: center;
   margin-bottom: 2rem;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 900px) {
@@ -541,6 +588,11 @@ body {
 }
 
 /* Split Screen */
+
+.wrapper {
+  margin-bottom: 10px;
+  height: 80%;
+}
 
 .wrapper .left,
 .wrapper .right {
