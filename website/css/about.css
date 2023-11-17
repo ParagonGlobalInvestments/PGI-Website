@@ -121,6 +121,12 @@ span {
   padding-left: 0px;
 }
 
+.Cornell {
+  width: 16rem;
+  padding-left: 0px;
+  transform: translateX(-30px);
+}
+
 .schools {
   display: flex;
   justify-content: center;
@@ -269,6 +275,12 @@ tr:first-child {
     padding-left: 2rem;
     padding-top: 3rem;
     align-items: center;
+  }
+
+  .Cornell {
+    width: 12rem;
+    padding-left: 0px;
+    transform: translateX(10px);
   }
 }
 

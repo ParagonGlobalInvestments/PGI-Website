@@ -224,6 +224,12 @@ body {
   padding-left: 0px;
 }
 
+.Cornell {
+  width: 16rem;
+  padding-left: 0px;
+  transform: translateX(-30px);
+}
+
 /* Sponsors */
 
 .about-sponsors {
@@ -279,6 +285,12 @@ body {
   .Columbia {
     width: 10rem;
     padding-left: -30spx;
+  }
+
+  .Cornell {
+    width: 12rem;
+    padding-left: 0px;
+    transform: translateX(-15px);
   }
 }
 
