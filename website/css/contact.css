@@ -11,17 +11,36 @@ textarea {
   overflow-x: hidden;
 }
 
+
 .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  /* background: -webkit-linear-gradient(to right, #00182a, #16222A);  */
+  /* background: linear-gradient(to right, #00182a, #16222A);  */
+
+  background-size: cover;
+  min-width: 100%;
+  background-position: center center;
+  color: #f6f6f6;
+  overflow: hidden;
+  padding-top: 2rem;
+  /* position:relative; */
+}
+/* .container {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  /* padding: 2rem; */
+  padding: 2rem;
   background-color: #00182a;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .form {
   width: 100%;
@@ -395,109 +414,6 @@ textarea.input {
 /* Navbar */
 
 /* navbar */
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: 10px;
-  overflow-x: hidden;
-}
-.nav span {
-  margin-left: 20px;
-}
-
-.navbar {
-  background: #00182a;
-  height: 80px;
-  display: flex;
-  /* Next two need display: flex
-    to work properly */
-  justify-content: center;
-  align-items: center;
-  /* Default is 16 pixels multiples it */
-  font-size: 1.2rem;
-  position: sticky;
-  top: 0;
-  /* This makes it so the navbar is always above other items
-    in the website */
-  z-index: 999;
-  /* border-style: solid;
-    border-width: thin; */
-}
-
-.logo {
-  /* font-family: 'Dancing Script',cursive; */
-  /* font-size: 24px; */
-  width: 550%;
-}
-
-/* This is for the specific navbar__container class
-This contains all the links in the navbar title bar and
-controls their features */
-.navbar__container {
-  background: #00182a;
-  display: flex;
-  justify-content: space-between;
-  height: 75px;
-  z-index: 1;
-  width: 100%;
-  max-width: 1300px;
-  /* margin/padding: (top right) (bottom left)
-    auto completes for bottom left*/
-  margin: 0 auto;
-}
-
-/* It's # because we placed an id (#) onto the navbar__logo
-This is for the singular logo (JS) in this build*/
-#navbar__logo {
-  padding: 1.2em;
-  background: #303340;
-  /* Makes the background image have gradient coloring */
-  background: #fff;
-  /* background-size: 100%; */
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  display: flex;
-  align-items: center;
-  /* Changes it to a pointer when hovering over it */
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  width: 1rem;
-}
-
-/* This controls the code for the display of all the links in the
-navbar */
-.navbar__menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-/* This controls the code for the specific items in the navbar__menu */
-.navbar__item {
-  height: 50px;
-}
-
-/* This controls the specific items for the links (a tags) */
-.navbar__links {
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 125px;
-  text-decoration: none;
-  height: 100%;
-  transition: all 0.3s ease;
-}
-
-.navbar__links:hover {
-  color: #808080;
-  transition: all 0.3s ease;
-}
 
 /* This is for when the screen is being
 minimized and it changes the navbar
