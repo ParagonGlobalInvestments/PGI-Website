@@ -1,8 +1,10 @@
 body {
   width: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .intro {
+  font-family: "Montserrat", sans-serif;
   padding: 5rem;
   padding-bottom: 6rem;
   width: 100%;
@@ -13,6 +15,7 @@ body {
 }
 
 .intro-section {
+  font-family: "Montserrat", sans-serif;
   display: flex; /* Use flexbox to align items */
   align-items: flex-start; /* Start items at the beginning */
   justify-content: center; /* Align items horizontally in the middle */
@@ -24,9 +27,12 @@ body {
   font-size: 6vw;
   color: white;
   margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header {
+  font-family: "Montserrat", sans-serif;
+
   font-size: 3vw;
   color: #8aa0ac;
   margin-top: 10px;
@@ -34,6 +40,7 @@ body {
 }
 
 .desc_club {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.7vw;
   color: #8aa0ac;
   line-height: 130%;
@@ -43,6 +50,7 @@ body {
 }
 
 .scroll-container {
+  /* font-family: "Montserrat", sans-serif; */
   cursor: pointer;
   position: absolute;
   bottom: 30px; /* Increasing bottom padding for space between text and screen bottom */
@@ -66,6 +74,7 @@ body {
   color: white;
   font-size: 2vw; /* Doubling font size for 2x size */
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media screen and (max-width: 1100px) {
@@ -179,6 +188,7 @@ body {
   color: white;
   padding-top: 5rem;
   padding-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .pngdesc {
@@ -188,6 +198,7 @@ body {
 
   text-align: center;
   font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Schools */
@@ -240,6 +251,7 @@ body {
   padding-bottom: 2rem;
   /* padding-bottom: 2rem; */
   /* padding-bottom: 0rem; */
+  font-family: "Montserrat", sans-serif;
 }
 
 .sponsors {
@@ -253,6 +265,7 @@ body {
 
   width: 80%; /* set width to 100% */
   margin: 0 auto; /* center the container horizontally */
+  font-family: "Montserrat", sans-serif;
 }
 
 .sponsors .sponsors_card {
@@ -305,6 +318,7 @@ body {
   margin-top: 50px;
   width: 50%;
   padding-bottom: 5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .currsec {
@@ -323,6 +337,7 @@ body {
   /* text-align: center; */
   font-size: 2em;
   padding-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .edtitle {
@@ -331,6 +346,7 @@ body {
   color: white;
   padding-top: 5rem;
   padding-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 900px) {
@@ -369,6 +385,7 @@ body {
   text-align: center;
   margin-bottom: 5rem;
   padding-top: 10rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .overlap-group-container {
@@ -422,6 +439,7 @@ body {
   margin-top: 77px;
   text-align: center;
   width: 224px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .a-factor-portfolio-c {
@@ -461,6 +479,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .fundamental-analysis {
@@ -576,6 +595,7 @@ body {
   align-items: center;
   justify-content: center;
   row-gap: 5px;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media screen and (max-width: 1100px) {
@@ -599,6 +619,7 @@ body {
   text-align: center;
   margin-bottom: 2rem;
   /* margin-bottom: 50px; */
+  font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 900px) {
@@ -630,6 +651,7 @@ body {
   color: #fff;
   text-align: center;
   width: 70%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .subcaption {
@@ -686,6 +708,7 @@ body {
   gap: 46px;
   margin: auto;
   width: 80%;
+  font-family: "Montserrat", sans-serif;
   /* max-width: 900px; adjust this value according to your needs */
 }
 
