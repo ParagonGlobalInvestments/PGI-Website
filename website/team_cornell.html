@@ -106,7 +106,7 @@
       </div>
 
 
-  
+
       <!-- Junior Team -->
       <div class="president">
         <h4 class="leadership">Portfolio Managers</h4>
@@ -234,5 +234,11 @@
       </div>
     </div>
 </body>
+<div id="footer-placeholder"></div>
+<script>
+  $.get("footer.html", function (data) {
+    $("#footer-placeholder").replaceWith(data);
+  });
+</script>
 
 </html>
