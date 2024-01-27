@@ -57,6 +57,7 @@ footer {
 .footer-content {
     /* max-width: 1155px; */
     margin: auto;
+    margin-top: 25px;
     padding: 0 140px;
     text-align: left;
 }
@@ -110,12 +111,14 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .footer-top {
         flex-direction: column;
         /* Stack elements vertically */
+
         align-items: flex-start;
         /* Align items to the start of the flex container */
+
         padding: 0 20px;
         /* Adjust padding as needed */
     }
@@ -123,6 +126,7 @@ footer {
     .footer-social-icons {
         margin-top: 1rem;
         /* Add some margin on top for spacing */
+
         justify-content: flex-start;
         /* Align social icons to the start */
     }
@@ -130,6 +134,7 @@ footer {
     .socials li {
         display: block;
         /* Each social link will take the full width */
+
         margin-right: 0;
         /* Remove the right margin */
     }
