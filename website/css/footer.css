@@ -3,7 +3,7 @@ footer {
     /* background-color: rgb(255,255,255); */
     text-align: center;
     padding: 25px 0;
-    color: rgb(5,23,41);
+    color: rgb(5, 23, 41);
     border-top: 1px solid white;
 }
 
@@ -39,11 +39,11 @@ footer {
     line-height: 35px;
     margin-right: 0.5rem;
     transition: 0.3s;
-  }
+}
 
-  .footer-social-icons a:hover {
+.footer-social-icons a:hover {
     transform: scale(1.05);
-  }
+}
 
 
 .footer-social-icons img {
@@ -107,4 +107,40 @@ footer {
 .socials a:hover {
     color: gray;
     transition: 0.3s;
-  }
+}
+
+
+@media (max-width: 600px) {
+    .footer-top {
+        flex-direction: column;
+        /* Stack elements vertically */
+        align-items: flex-start;
+        /* Align items to the start of the flex container */
+        padding: 0 20px;
+        /* Adjust padding as needed */
+    }
+
+    .footer-social-icons {
+        margin-top: 1rem;
+        /* Add some margin on top for spacing */
+        justify-content: flex-start;
+        /* Align social icons to the start */
+    }
+
+    .socials li {
+        display: block;
+        /* Each social link will take the full width */
+        margin-right: 0;
+        /* Remove the right margin */
+    }
+
+    .footer-content {
+        padding: 0 20px;
+        /* Adjust footer content padding */
+    }
+
+    .footer-bottom p {
+        padding: 20px 0;
+        /* Adjust bottom paragraph padding */
+    }
+}
