@@ -192,7 +192,8 @@
             <div class="event-right">
               <h3 class="event-title">Applications Close</h3>
               <div class="event-description">
-                <br> Applications must be submitted through the link above. Reach out to paragonnational@gmail.com with any questions.
+                <br> Applications must be submitted through the link above. Reach out to paragonnational@gmail.com with
+                any questions.
 
               </div>
               <div class="event-timing">
@@ -272,6 +273,17 @@
 
         </div>
       </div>
+    </div>
+  </div>
+  <br><br><br>
+  <div id="footer-placeholder"></div>
+<script>
+  $.get("footer.html", function (data) {
+    $("#footer-placeholder").replaceWith(data);
+  });
+</script>
+
 </body>
+
 
 </html>

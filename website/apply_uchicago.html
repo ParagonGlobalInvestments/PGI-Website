@@ -152,8 +152,7 @@
                 applications. There will be time for clarifying questions at the end.
 
                 <div class="home-button">
-                  <a href="#" target="_blank"
-                    class="myButton">Stuart 020</a>
+                  <a href="#" target="_blank" class="myButton">Stuart 020</a>
                 </div>
 
               </div>
@@ -353,6 +352,16 @@
 
         </div>
       </div>
+    </div>
+  </div>
+  <br><br><br>
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
 </body>
+
 
 </html>
