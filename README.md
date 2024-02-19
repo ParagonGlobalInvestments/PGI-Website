@@ -1,1 +1,1 @@
-Paragon National Group Website
+Paragon Global Investments Website

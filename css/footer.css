@@ -19,8 +19,9 @@ footer {
 
 .footer-logo img {
     align-items: center;
-    /* max-width: 1155px; */
-    max-height: 40px;
+    
+    /* max-width: 5000px; */
+    max-height: 75px;
 }
 
 .footer-social-icons {
