@@ -3,6 +3,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  font-size: 1rem;
+}
+
 .intro {
   font-family: "Montserrat", sans-serif;
   padding: 5rem;
@@ -24,7 +28,7 @@ body {
 }
 
 .title {
-  font-size: 6vw;
+  font-size: 4.5vw;
   color: white;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
@@ -33,7 +37,7 @@ body {
 .header {
   font-family: "Montserrat", sans-serif;
 
-  font-size: 3vw;
+  font-size: 2.35vw;
   color: #8aa0ac;
   margin-top: 10px;
   margin-bottom: 0;
@@ -41,7 +45,7 @@ body {
 
 .desc_club {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   color: #8aa0ac;
   line-height: 130%;
   margin-top: 10px;
