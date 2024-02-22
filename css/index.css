@@ -31,6 +31,8 @@ h1 {
   font-size: 4.5vw;
   color: white;
   margin-bottom: 0;
+  justify-content: center;
+  display: flex; /* Use flexbox to align items */
   font-family: "Montserrat", sans-serif;
 }
 
