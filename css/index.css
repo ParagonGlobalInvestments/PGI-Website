@@ -32,7 +32,7 @@ h1 {
   color: white;
   margin-bottom: 0;
   justify-content: center;
-  display: flex; /* Use flexbox to align items */
+  display: flex;
   font-family: "Montserrat", sans-serif;
 }
 
