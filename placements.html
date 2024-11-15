@@ -1,136 +1,197 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Placements</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width"
+      ,
+      initial-scale="1"
+      ,
+      minimum-scale="1"
+    />
+    <link rel="stylesheet" type="text/css" href="css/placements.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<head>
-  <title>Placements</title>
-  <link rel="icon" type="image/png" href="images/favicon.png" />
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width" , initial-scale="1" , minimum-scale="1" />
-  <link rel="stylesheet" type="text/css" href="css/placements.css" />
-  <link rel="stylesheet" type="text/css" href="css/main.css" />
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
+  <body>
+    <!-- Navbar Contents -->
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+      $.get("nav.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
 
-<body>
-  <!-- Navbar Contents -->
-  <div id="nav-placeholder"></div>
-  <script src="//code.jquery.com/jquery.min.js"></script>
-  <script>
-    $.get("nav.html", function (data) {
-      $("#nav-placeholder").replaceWith(data);
-    });
-  </script>
-
-  <div class="container">
-    <div class="intro">
-      <h4>Alumni</h4>
-      <span>
-        Since 2021, members of Paragon Global Investments have excelled in
-        many different fields within the finance and tech industries. Paragon 
-        alumni have received internship and job offers from the foremost
-        companies, startups, and nonprofits across finance and technology.
-        Paragon members and alumni
-        have experience in investment banking, quantitative trading, software
-        development, private equity, equity research, private credit, and management
-        consulting.
-      </span>
-    </div>
-
-    <h3>Investment Banking</h3>
-    <div class="companies">
-      <div class="img_div">
-        <a href="https://www.goldmansachs.com/" target="_blank" class="icons"><img src="Companies/Goldman Sachs.png"
-            alt="Goldman" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.jpmorgan.com/global/" target="_blank" class="icons"><img src="Companies/JP Morgan.png"
-            alt="JP Morgan" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.morganstanley.com/" target="_blank" class="icons"><img src="Companies/Morgan Stanley.png"
-            alt="Morgan Stanley" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.bankofamerica.com/" target="_blank" class="icons"><img src="Companies/BAML.png"
-            alt="Bank of America" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.rbccm.com/" target="_blank" class="icons"><img src="Companies/RBC.png" alt="RBC"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.citi.com/" target="_blank" class="icons"><img src="Companies/Citi.png" alt="Citi"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.credit-suisse.com/us/en.html" target="_blank" class="icons"><img
-            src="Companies/Credit Suisse.png" alt="CS" class="company" /></a>
+    <div class="container">
+      <div class="intro">
+        <h4>Alumni</h4>
+        <span>
+          Since 2021, members of Paragon Global Investments have excelled in
+          many different fields within the finance and tech industries. Paragon
+          alumni have received internship and job offers from the foremost
+          companies, startups, and nonprofits across finance and technology.
+          Paragon members and alumni have experience in investment banking,
+          quantitative trading, software development, private equity, equity
+          research, private credit, and management consulting.
+        </span>
       </div>
 
-      <div class="img_div">
-        <a href="https://www.evercore.com/" target="_blank" class="icons"><img src="Companies/Evercore.png"
-            alt="Evercore" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.lazard.com/" target="_blank" class="icons"><img src="Companies/Lazard.png" alt="Lazard"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.qatalyst.com/" target="_blank" class="icons"><img src="Companies/Qatalyst.png"
-            alt="Qatalyst" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://pjtpartners.com/" target="_blank" class="icons"><img src="Companies/pjt.png" alt="PJT"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://pwpartners.com/" target="_blank" class="icons"><img src="Companies/PWP.png" alt="PWP"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.liontree.com/" target="_blank" class="icons"><img src="Companies/LionTree.png"
-            alt="LionTree" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://mkleinandcompany.com/" target="_blank" class="icons"><img src="Companies/Mklein.png"
-            alt="Mklein" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.guggenheimpartners.com/services/securities" target="_blank" class="icons"><img
-            src="Companies/Guggenheim.png" alt="Guggenheim" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.mizuhogroup.com/bank" target="_blank" class="icons"><img src="Companies/Mizuho.png"
-            alt="Mizuho" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.jefferies.com/" target="_blank" class="icons"><img src="Companies/Jefferies.png"
-            alt="Jefferies" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.rwbaird.com/" target="_blank" class="icons"><img src="Companies/Baird.png" alt="Baird"
-            class="company" /></a>
-      </div>
+      <h3>Investment Banking</h3>
+      <div class="companies">
+        <div class="img_div">
+          <a href="https://www.goldmansachs.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/Goldman Sachs.png"
+              alt="Goldman"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.jpmorgan.com/global/"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/JP Morgan.png" alt="JP Morgan" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.morganstanley.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/Morgan Stanley.png"
+              alt="Morgan Stanley"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.bankofamerica.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/BAML.png"
+              alt="Bank of America"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.rbccm.com/" target="_blank" class="icons"
+            ><img src="Companies/RBC.png" alt="RBC" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.citi.com/" target="_blank" class="icons"
+            ><img src="Companies/Citi.png" alt="Citi" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.credit-suisse.com/us/en.html"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/Credit Suisse.png" alt="CS" class="company"
+          /></a>
+        </div>
 
-      <div class="img_div">
-        <a href="https://www.nomura.com/" target="_blank" class="icons"><img src="Companies/Nomura.png" alt="Nomura"
-            class="company" /></a>
-      </div>
+        <div class="img_div">
+          <a href="https://www.evercore.com/" target="_blank" class="icons"
+            ><img src="Companies/Evercore.png" alt="Evercore" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.lazard.com/" target="_blank" class="icons"
+            ><img src="Companies/Lazard.png" alt="Lazard" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.qatalyst.com/" target="_blank" class="icons"
+            ><img src="Companies/Qatalyst.png" alt="Qatalyst" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://pjtpartners.com/" target="_blank" class="icons"
+            ><img src="Companies/pjt.png" alt="PJT" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://pwpartners.com/" target="_blank" class="icons"
+            ><img src="Companies/PWP.png" alt="PWP" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.liontree.com/" target="_blank" class="icons"
+            ><img src="Companies/LionTree.png" alt="LionTree" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://mkleinandcompany.com/" target="_blank" class="icons"
+            ><img src="Companies/Mklein.png" alt="Mklein" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.guggenheimpartners.com/services/securities"
+            target="_blank"
+            class="icons"
+            ><img
+              src="Companies/Guggenheim.png"
+              alt="Guggenheim"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.mizuhogroup.com/bank"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/Mizuho.png" alt="Mizuho" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.jefferies.com/" target="_blank" class="icons"
+            ><img src="Companies/Jefferies.png" alt="Jefferies" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.rwbaird.com/" target="_blank" class="icons"
+            ><img src="Companies/Baird.png" alt="Baird" class="company"
+          /></a>
+        </div>
 
-      <div class="img_div">
-        <a href="https://www.macquarie.com/us/en.html" target="_blank" class="icons"><img src="Companies/Macquarie.png"
-            alt="Macquarie" class="company" /></a>
-      </div>
+        <div class="img_div">
+          <a href="https://www.nomura.com/" target="_blank" class="icons"
+            ><img src="Companies/Nomura.png" alt="Nomura" class="company"
+          /></a>
+        </div>
 
-      <div class="img_div">
-        <a href=" https://www.ubs.com/us/en.html" target="_blank" class="icons"><img src="Companies/UBS.png" alt="ubs"
-            class="company" /></a>
-      </div>
+        <div class="img_div">
+          <a
+            href="https://www.macquarie.com/us/en.html"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/Macquarie.png" alt="Macquarie" class="company"
+          /></a>
+        </div>
 
-      <!-- <div class="img_div">
+        <div class="img_div">
+          <a
+            href=" https://www.ubs.com/us/en.html"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/UBS.png" alt="ubs" class="company"
+          /></a>
+        </div>
+
+        <!-- <div class="img_div">
           <a
             href="https://www.rothschildandco.com/en/"
             target="_blank"
@@ -142,357 +203,510 @@
           /></a>
         </div> -->
 
-      <!-- <div class = "img_div"><a href="https://www.capital-clarity.com/" target="_blank" class="icons"><img src="Companies/CapitalClarity.png" alt = "Capital Clarity" class="company"></a></div> -->
-      <!-- <div class = "img_div"><a href="https://www.frontieribc.com/" target="_blank" class="icons"><img src="Companies/Frontier.png" alt = "Frontier Investment Banking" class="company"></a></div> -->
+        <!-- <div class = "img_div"><a href="https://www.capital-clarity.com/" target="_blank" class="icons"><img src="Companies/CapitalClarity.png" alt = "Capital Clarity" class="company"></a></div> -->
+        <!-- <div class = "img_div"><a href="https://www.frontieribc.com/" target="_blank" class="icons"><img src="Companies/Frontier.png" alt = "Frontier Investment Banking" class="company"></a></div> -->
 
-      <!-- <div class = "img_div"><a href="https://tercera.io/" target="_blank" class="icons"><img src="Companies/Tercera.png" alt = "Tercera" class="company"></a></div> -->
-      <!-- <div class = "img_div"><a href="http://www.sfcapital.com/" target="_blank" class="icons"><img src="Companies/Santa Fe.png" alt = "Santa Fe Capital Group" class="company"></a></div> -->
-    </div>
-
-    <!--  Quant -->
-
-    <h3>Quantitative Trading and Technology</h3>
-
-    <div class="companies">
-      <div class="img_div">
-        <a href="https://www.citadel.com/" target="_blank" class="icons"><img src="Companies/CitSec.png" alt="Citadel"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.janestreet.com/" target="_blank" class="icons"><img src="Companies/JaneStreet.png" alt="JS"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.deshaw.com/" target="_blank" class="icons"><img src="Companies/deshaw.png" alt="deshaw"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.arrowstreetcapital.com/" target="_blank" class="icons"><img src="Companies/arrowstreet.png"
-            alt="arrowstreet" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://optiver.com/" target="_blank" class="icons"><img src="Companies/Optiver.png" alt="Optiver"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.aqr.com/" target="_blank" class="icons"><img src="Companies/AQR3.png" alt="AQR"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://sig.com/" target="_blank" class="icons"><img src="Companies/SIG.png" alt="SIG"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.imc.com/us/" target="_blank" class="icons"><img src="Companies/imc.png" alt="IMC"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://fiverings.com/" target="_blank" class="icons"><img src="Companies/FiveRings.png" alt="Five Rings"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.virtu.com/" target="_blank" class="icons"><img src="Companies/Virtu.png" alt="virtu"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="http://www.peak6.com/" target="_blank" class="icons"><img src="Companies/peak6.png" alt="Peak6"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.flowtraders.com/" target="_blank" class="icons"><img src="Companies/flow.png" alt="flow"
-            class="company" /></a>
+        <!-- <div class = "img_div"><a href="https://tercera.io/" target="_blank" class="icons"><img src="Companies/Tercera.png" alt = "Tercera" class="company"></a></div> -->
+        <!-- <div class = "img_div"><a href="http://www.sfcapital.com/" target="_blank" class="icons"><img src="Companies/Santa Fe.png" alt = "Santa Fe Capital Group" class="company"></a></div> -->
       </div>
 
-      <div class="img_div">
-        <a href="https://www.chicagotrading.com/" target="_blank" class="icons"><img src="Companies/CTC.png" alt="flow"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="http://www.belvederetrading.com/" target="_blank" class="icons"><img src="Companies/Belvedere.png"
-            alt="Belvedere" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="http://www.akunacapital.com/" target="_blank" class="icons"><img src="Companies/Akuna.png"
-            alt="Belvedere" class="company" /></a>
+      <!--  Quant -->
+
+      <h3>Quantitative Trading and Technology</h3>
+
+      <div class="companies">
+        <div class="img_div">
+          <a href="https://www.citadel.com/" target="_blank" class="icons"
+            ><img src="Companies/CitSec.png" alt="Citadel" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.janestreet.com/" target="_blank" class="icons"
+            ><img src="Companies/JaneStreet.png" alt="JS" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.deshaw.com/" target="_blank" class="icons"
+            ><img src="Companies/deshaw.png" alt="deshaw" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.arrowstreetcapital.com/"
+            target="_blank"
+            class="icons"
+            ><img
+              src="Companies/arrowstreet.png"
+              alt="arrowstreet"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://optiver.com/" target="_blank" class="icons"
+            ><img src="Companies/Optiver.png" alt="Optiver" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.aqr.com/" target="_blank" class="icons"
+            ><img src="Companies/AQR3.png" alt="AQR" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://sig.com/" target="_blank" class="icons"
+            ><img src="Companies/SIG.png" alt="SIG" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.imc.com/us/" target="_blank" class="icons"
+            ><img src="Companies/imc.png" alt="IMC" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://fiverings.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/FiveRings.png"
+              alt="Five Rings"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.virtu.com/" target="_blank" class="icons"
+            ><img src="Companies/Virtu.png" alt="virtu" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="http://www.peak6.com/" target="_blank" class="icons"
+            ><img src="Companies/peak6.png" alt="Peak6" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.flowtraders.com/" target="_blank" class="icons"
+            ><img src="Companies/flow.png" alt="flow" class="company"
+          /></a>
+        </div>
+
+        <div class="img_div">
+          <a
+            href="https://www.chicagotrading.com/"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/CTC.png" alt="flow" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="http://www.belvederetrading.com/"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/Belvedere.png" alt="Belvedere" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="http://www.akunacapital.com/" target="_blank" class="icons"
+            ><img src="Companies/Akuna.png" alt="Belvedere" class="company"
+          /></a>
+        </div>
+
+        <div class="img_div">
+          <a href="https://www.quantedge.com/" target="_blank" class="icons"
+            ><img src="Companies/Quantedge.png" alt="Belvedere" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="http://www.group1.com/" target="_blank" class="icons"
+            ><img src="Companies/GroupOne.png" alt="Group One" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.finalyze.io/" target="_blank" class="icons"
+            ><img src="Companies/Finalyze.png" alt="Finalzye" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.mlp.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/Millennium.png"
+              alt="Millennium"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.blackedge.com/" target="_blank" class="icons"
+            ><img src="Companies/Blackedge.png" alt="BlackEdge" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.kershnertrading.com/#/"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/Kershner.png" alt="Kershner" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.cloudquant.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/CloudQuant.webp"
+              alt="cloudquant"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.amazon.com/" target="_blank" class="icons"
+            ><img src="Companies/Amazon.png" alt="Amazon" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.apple.com/" target="_blank" class="icons"
+            ><img src="Companies/Apple.png" alt="Apple" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://about.google/" target="_blank" class="icons"
+            ><img src="Companies/Google.png" alt="Google" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://about.facebook.com/" target="_blank" class="icons"
+            ><img src="Companies/Meta.png" alt="Meta" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.microsoft.com/" target="_blank" class="icons"
+            ><img src="Companies/Microsoft.png" alt="Microsoft" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.nvidia.com/" target="_blank" class="icons"
+            ><img src="Companies/Nvidia.png" alt="ByteDance" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.bytedance.com/en/" target="_blank" class="icons"
+            ><img src="Companies/TikTok.png" alt="ByteDance" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.palantir.com/" target="_blank" class="icons"
+            ><img src="Companies/Palantir.png" alt="Palantir" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.spacex.com/" target="_blank" class="icons"
+            ><img src="Companies/SpaceX.png" alt="SpaceX" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.tesla.com/" target="_blank" class="icons"
+            ><img src="Companies/Tesla1.png" alt="SpaceX" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.notion.so/product" target="_blank" class="icons"
+            ><img src="Companies/Notion.png" alt="SpaceX" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.doordash.com/" target="_blank" class="icons"
+            ><img src="Companies/Doordash.png" alt="SpaceX" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.databricks.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/databricks.png"
+              alt="Databricks"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.plaid.com/" target="_blank" class="icons"
+            ><img src="Companies/Plaid.png" alt="Plaid" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.factset.com/" target="_blank" class="icons"
+            ><img src="Companies/Factset.png" alt="IBM" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.ibm.com/" target="_blank" class="icons"
+            ><img src="Companies/ibm.png" alt="IBM" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.siemens.com/us/en.html"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/Siemens.png" alt="siemens" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.stone.co/" target="_blank" class="icons"
+            ><img src="Companies/Stone.png" alt="StoneCo" class="company"
+          /></a>
+        </div>
+        <!-- <div class = "img_div"><a href="https://www.capital-clarity.com/" target="_blank" class="icons"><img src="Companies/CapitalClarity.png" alt = "Capital Clarity" class="company"></a></div> -->
+        <!-- <div class = "img_div"><a href="https://www.frontieribc.com/" target="_blank" class="icons"><img src="Companies/Frontier.png" alt = "Frontier Investment Banking" class="company"></a></div> -->
+
+        <!-- <div class = "img_div"><a href="https://tercera.io/" target="_blank" class="icons"><img src="Companies/Tercera.png" alt = "Tercera" class="company"></a></div> -->
+        <!-- <div class = "img_div"><a href="http://www.sfcapital.com/" target="_blank" class="icons"><img src="Companies/Santa Fe.png" alt = "Santa Fe Capital Group" class="company"></a></div> -->
       </div>
 
-      <div class="img_div">
-        <a href="https://www.quantedge.com/" target="_blank" class="icons"><img src="Companies/Quantedge.png"
-            alt="Belvedere" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="http://www.group1.com/" target="_blank" class="icons"><img src="Companies/GroupOne.png" alt="Group One"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.finalyze.io/" target="_blank" class="icons"><img src="Companies/Finalyze.png"
-            alt="Finalzye" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.mlp.com/" target="_blank" class="icons"><img src="Companies/Millennium.png"
-            alt="Millennium" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.blackedge.com/" target="_blank" class="icons"><img src="Companies/Blackedge.png"
-            alt="BlackEdge" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.kershnertrading.com/#/" target="_blank" class="icons"><img src="Companies/Kershner.png"
-            alt="Kershner" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.cloudquant.com/" target="_blank" class="icons"><img src="Companies/CloudQuant.webp"
-            alt="cloudquant" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.amazon.com/" target="_blank" class="icons"><img src="Companies/Amazon.png" alt="Amazon"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.apple.com/" target="_blank" class="icons"><img src="Companies/Apple.png"
-            alt="Apple" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://about.google/" target="_blank" class="icons"><img src="Companies/Google.png"
-            alt="Google" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://about.facebook.com/" target="_blank" class="icons"><img src="Companies/Meta.png" alt="Meta"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.microsoft.com/" target="_blank" class="icons"><img src="Companies/Microsoft.png"
-            alt="Microsoft" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.nvidia.com/" target="_blank" class="icons"><img src="Companies/Nvidia.png"
-            alt="ByteDance" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.bytedance.com/en/" target="_blank" class="icons"><img src="Companies/TikTok.png"
-            alt="ByteDance" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.palantir.com/" target="_blank" class="icons"><img src="Companies/Palantir.png"
-            alt="Palantir" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.spacex.com/" target="_blank" class="icons"><img src="Companies/SpaceX.png" alt="SpaceX"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.tesla.com/" target="_blank" class="icons"><img src="Companies/Tesla1.png" alt="SpaceX"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.notion.so/product" target="_blank" class="icons"><img src="Companies/Notion.png" alt="SpaceX"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.doordash.com/" target="_blank" class="icons"><img src="Companies/Doordash.png" alt="SpaceX"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.databricks.com/" target="_blank" class="icons"><img src="Companies/databricks.png"
-            alt="Databricks" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.plaid.com/" target="_blank" class="icons"><img src="Companies/Plaid.png"
-            alt="Plaid" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.factset.com/" target="_blank" class="icons"><img src="Companies/Factset.png" alt="IBM"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.ibm.com/" target="_blank" class="icons"><img src="Companies/ibm.png" alt="IBM"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.siemens.com/us/en.html" target="_blank" class="icons"><img src="Companies/Siemens.png"
-            alt="siemens" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.stone.co/" target="_blank" class="icons"><img src="Companies/Stone.png" alt="StoneCo"
-            class="company" /></a>
-      </div>
-      <!-- <div class = "img_div"><a href="https://www.capital-clarity.com/" target="_blank" class="icons"><img src="Companies/CapitalClarity.png" alt = "Capital Clarity" class="company"></a></div> -->
-      <!-- <div class = "img_div"><a href="https://www.frontieribc.com/" target="_blank" class="icons"><img src="Companies/Frontier.png" alt = "Frontier Investment Banking" class="company"></a></div> -->
+      <h3>Asset Management and Consulting</h3>
+      <div class="companies">
+        <div class="img_div">
+          <a href="https://www.citadel.com/" target="_blank" class="icons"
+            ><img src="Companies/Citadel.png" alt="Citadel" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://point72.com/" target="_blank" class="icons"
+            ><img src="Companies/Point72.svg" alt="Point72" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.dodgeandcox.com/" target="_blank" class="icons"
+            ><img src="Companies/dodge.png" alt="dodge" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://warburgpincus.com/" target="_blank" class="icons"
+            ><img src="Companies/WarburgPincus.png" alt="dodge" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.silverlake.com/" target="_blank" class="icons"
+            ><img src="Companies/SilverLake.png" alt="dodge" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.generalatlantic.com/"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/GA.png" alt="dodge" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.pimco.com/" target="_blank" class="icons"
+            ><img src="Companies/Pimco.png" alt="dodge" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.bridgewater.com/" target="_blank" class="icons"
+            ><img src="Companies/Bridgewater.png" alt="Point72" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href=" https://www.apollo.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/Apollo.png"
+              alt="Apollo Management"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.aresmgmt.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/Ares.png"
+              alt="Ares Management"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.blackstone.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/Blackstone.png"
+              alt="Blackstone"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.carlyle.com/" target="_blank" class="icons"
+            ><img src="Companies/Carlyle.png" alt="Carlyle" class="company"
+          /></a>
+        </div>
 
-      <!-- <div class = "img_div"><a href="https://tercera.io/" target="_blank" class="icons"><img src="Companies/Tercera.png" alt = "Tercera" class="company"></a></div> -->
-      <!-- <div class = "img_div"><a href="http://www.sfcapital.com/" target="_blank" class="icons"><img src="Companies/Santa Fe.png" alt = "Santa Fe Capital Group" class="company"></a></div> -->
-    </div>
+        <div class="img_div">
+          <a href="https://www.mckinsey.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/Mckinsey.png"
+              alt="McKinsey & Company"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.bain.com/" target="_blank" class="icons"
+            ><img src="Companies/bain.png" alt="Bain & Company" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.bcg.com/" target="_blank" class="icons"
+            ><img src="Companies/BCG.png" alt="BCG" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.adventinternational.com/"
+            target="_blank"
+            class="icons"
+            ><img
+              src="Companies/Advent.png"
+              alt="Advent International"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.cdr-inc.com/" target="_blank" class="icons"
+            ><img src="Companies/CDR.jpg" alt="CDR" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.oaktreecapital.com/"
+            target="_blank"
+            class="icons"
+            ><img
+              src="Companies/Oaktree.png"
+              alt="Dodge and Cox"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.gtcr.com/" target="_blank" class="icons"
+            ><img src="Companies/GTCR.png" alt="GTCR" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.accel-kkr.com/" target="_blank" class="icons"
+            ><img src="Companies/AKKR.png" alt="AKKR" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.permira.com/" target="_blank" class="icons"
+            ><img src="Companies/Permira.png" alt="BAM" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.bamfunds.com/" target="_blank" class="icons"
+            ><img src="Companies/BAM.png" alt="BAM" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.troweprice.com/en/us"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/TRowe.png" alt="BAM" class="company"
+          /></a>
+        </div>
 
-    <h3>Asset Management and Consulting</h3>
-    <div class="companies">
-      <div class="img_div">
-        <a href="https://www.citadel.com/" target="_blank" class="icons"><img src="Companies/Citadel.png" alt="Citadel"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://point72.com/" target="_blank" class="icons"><img src="Companies/Point72.svg" alt="Point72"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.dodgeandcox.com/" target="_blank" class="icons"><img src="Companies/dodge.png" alt="dodge"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://warburgpincus.com/" target="_blank" class="icons"><img src="Companies/WarburgPincus.png" alt="dodge"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.silverlake.com/" target="_blank" class="icons"><img src="Companies/SilverLake.png" alt="dodge"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.generalatlantic.com/" target="_blank" class="icons"><img src="Companies/GA.png" alt="dodge"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.pimco.com/" target="_blank" class="icons"><img src="Companies/Pimco.png" alt="dodge"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.bridgewater.com/" target="_blank" class="icons"><img src="Companies/Bridgewater.png"
-            alt="Point72" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href=" https://www.apollo.com/" target="_blank" class="icons"><img src="Companies/Apollo.png"
-            alt="Apollo Management" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.aresmgmt.com/" target="_blank" class="icons"><img src="Companies/Ares.png"
-            alt="Ares Management" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.blackstone.com/" target="_blank" class="icons"><img src="Companies/Blackstone.png"
-            alt="Blackstone" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.carlyle.com/" target="_blank" class="icons"><img src="Companies/Carlyle.png" alt="Carlyle"
-            class="company" /></a>
-      </div>
+        <div class="img_div">
+          <a href="https://sixthstreet.com/" target="_blank" class="icons"
+            ><img src="Companies/sixthstreet.png" alt="NB" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.nb.com/en/global/home?gclid=Cj0KCQjw4uaUBhC8ARIsANUuDjVoCjM_SihB0W0DFpLWBBXfrD29mHvcqWMe5F2f7qIM1vgsT9ZsQh4aAgONEALw_wcB"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/NB.png" alt="NB" class="company"
+          /></a>
+        </div>
 
-
-      <div class="img_div">
-        <a href="https://www.mckinsey.com/" target="_blank" class="icons"><img src="Companies/Mckinsey.png"
-            alt="McKinsey & Company" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.bain.com/" target="_blank" class="icons"><img src="Companies/bain.png" alt="Bain & Company"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.bcg.com/" target="_blank" class="icons"><img src="Companies/BCG.png" alt="BCG"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.adventinternational.com/" target="_blank" class="icons"><img src="Companies/Advent.png"
-            alt="Advent International" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.cdr-inc.com/" target="_blank" class="icons"><img src="Companies/CDR.jpg" alt="CDR"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.oaktreecapital.com/" target="_blank" class="icons"><img src="Companies/Oaktree.png"
-            alt="Dodge and Cox" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.gtcr.com/" target="_blank" class="icons"><img src="Companies/GTCR.png" alt="GTCR"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.accel-kkr.com/" target="_blank" class="icons"><img src="Companies/AKKR.png" alt="AKKR"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.permira.com/" target="_blank" class="icons"><img src="Companies/Permira.png" alt="BAM"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.bamfunds.com/" target="_blank" class="icons"><img src="Companies/BAM.png" alt="BAM"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.troweprice.com/en/us" target="_blank" class="icons"><img src="Companies/TRowe.png" alt="BAM"
-            class="company" /></a>
-      </div>
-
-      <div class="img_div">
-        <a href="https://www.wellington.com/en" target="_blank" class="icons"><img src="Companies/Wellington.png"
-            alt="wellington" class="company" /></a>
-      </div>
-
-      <div class="img_div">
-        <a href="https://sixthstreet.com/" target="_blank" class="icons"><img src="Companies/sixthstreet.png" alt="NB"
-            class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.nb.com/en/global/home?gclid=Cj0KCQjw4uaUBhC8ARIsANUuDjVoCjM_SihB0W0DFpLWBBXfrD29mHvcqWMe5F2f7qIM1vgsT9ZsQh4aAgONEALw_wcB"
-          target="_blank" class="icons"><img src="Companies/NB.png" alt="NB" class="company" /></a>
-      </div>
-
-      <div class="img_div">
-        <a href="https://www.faralloncapital.com/" target="_blank" class="icons"><img src="Companies/Farallon.png"
-            alt="Farallon Capital" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.girlswhoinvest.org/" target="_blank" class="icons"><img src="Companies/GWI.png"
-            alt="Girls Who Invest" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://golubcapital.com/" target="_blank" class="icons"><img src="Companies/Golub.png"
-            alt="Golub Capital" class="company golub" /></a>
-      </div>
-      <!-- <div class="img_div">
+        <div class="img_div">
+          <a
+            href="https://www.faralloncapital.com/"
+            target="_blank"
+            class="icons"
+            ><img
+              src="Companies/Farallon.png"
+              alt="Farallon Capital"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a
+            href="https://www.girlswhoinvest.org/"
+            target="_blank"
+            class="icons"
+            ><img
+              src="Companies/GWI.png"
+              alt="Girls Who Invest"
+              class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://golubcapital.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/Golub.png"
+              alt="Golub Capital"
+              class="company golub"
+          /></a>
+        </div>
+        <!-- <div class="img_div">
           <a href="https://www.monroecap.com/" target="_blank" class="icons"
             ><img src="Companies/Monroe.png" alt="Monroe" class="company"
           /></a>
         </div> -->
-      <div class="img_div">
-        <a href="https://www.volitioncapital.com/" target="_blank" class="icons"><img src="Companies/Volition.png"
-            alt="Volition" class="company" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.icgam.com/" target="_blank" class="icons"><img src="Companies/ICG.png"
-            alt="Intermediate Capital Group" class="company" /></a>
-      </div>
-      <!-- <div class="img_div">
+        <div class="img_div">
+          <a
+            href="https://www.volitioncapital.com/"
+            target="_blank"
+            class="icons"
+            ><img src="Companies/Volition.png" alt="Volition" class="company"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.icgam.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/ICG.png"
+              alt="Intermediate Capital Group"
+              class="company"
+          /></a>
+        </div>
+        <!-- <div class="img_div">
           <a href="https://nextgengp.com/" target="_blank" class="icons"
             ><img src="Companies/NGP.png" alt="NGP" class="company"
           /></a>
         </div> -->
-      <div class="img_div">
-        <a href="https://www.arenaco.com/" target="_blank" class="icons"><img src="Companies/Arena.png"
-            alt="Arena Investors" class="company arena" /></a>
-      </div>
-      <div class="img_div">
-        <a href="https://www.usbank.com/" target="_blank" class="icons"><img src="Companies/US Bank.png" alt="US Bank"
-            class="company" /></a>
+        <div class="img_div">
+          <a href="https://www.arenaco.com/" target="_blank" class="icons"
+            ><img
+              src="Companies/Arena.png"
+              alt="Arena Investors"
+              class="company arena"
+          /></a>
+        </div>
+        <div class="img_div">
+          <a href="https://www.usbank.com/" target="_blank" class="icons"
+            ><img src="Companies/US Bank.png" alt="US Bank" class="company"
+          /></a>
+        </div>
+
+        <div class="img_div">
+          <a href="https://www.pwc.com/" target="_blank" class="icons"
+            ><img src="Companies/PWC.png" alt="PwC" class="company"
+          /></a>
+        </div>
+        <!-- <div class = "img_div"><a href="https://www.capital-clarity.com/" target="_blank" class="icons"><img src="Companies/CapitalClarity.png" alt = "Capital Clarity" class="company"></a></div> -->
+        <!-- <div class = "img_div"><a href="https://www.frontieribc.com/" target="_blank" class="icons"><img src="Companies/Frontier.png" alt = "Frontier Investment Banking" class="company"></a></div> -->
+
+        <!-- <div class = "img_div"><a href="https://tercera.io/" target="_blank" class="icons"><img src="Companies/Tercera.png" alt = "Tercera" class="company"></a></div> -->
+        <!-- <div class = "img_div"><a href="http://www.sfcapital.com/" target="_blank" class="icons"><img src="Companies/Santa Fe.png" alt = "Santa Fe Capital Group" class="company"></a></div> -->
       </div>
 
-      <div class="img_div">
-        <a href="https://www.pwc.com/" target="_blank" class="icons"><img src="Companies/PWC.png" alt="PwC"
-            class="company" /></a>
-      </div>
-      <!-- <div class = "img_div"><a href="https://www.capital-clarity.com/" target="_blank" class="icons"><img src="Companies/CapitalClarity.png" alt = "Capital Clarity" class="company"></a></div> -->
-      <!-- <div class = "img_div"><a href="https://www.frontieribc.com/" target="_blank" class="icons"><img src="Companies/Frontier.png" alt = "Frontier Investment Banking" class="company"></a></div> -->
-
-      <!-- <div class = "img_div"><a href="https://tercera.io/" target="_blank" class="icons"><img src="Companies/Tercera.png" alt = "Tercera" class="company"></a></div> -->
-      <!-- <div class = "img_div"><a href="http://www.sfcapital.com/" target="_blank" class="icons"><img src="Companies/Santa Fe.png" alt = "Santa Fe Capital Group" class="company"></a></div> -->
+      <!-- <div class = "img_div"><a href="https://www.tdameritrade.com/" target="_blank" class="icons"><img src="Companies/TD.png" alt = "TD" class="company"></a></div> -->
     </div>
+  </body>
 
-    <!-- <div class = "img_div"><a href="https://www.tdameritrade.com/" target="_blank" class="icons"><img src="Companies/TD.png" alt = "TD" class="company"></a></div> -->
-  </div>
-</body>
-
-<div id="footer-placeholder"></div>
-<script>
-  $.get("footer.html", function (data) {
-    $("#footer-placeholder").replaceWith(data);
-  });
-</script>
-
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
 </html>
