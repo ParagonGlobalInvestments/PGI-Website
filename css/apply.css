@@ -358,7 +358,7 @@ h5 {
 
 /* APPLY.CSS or MAIN.CSS */
 #calendar-container {
-  width: 90%;
+  width: 100%;
   max-width: 1100px;
   margin: 2em auto;        /* center on the page */
   background-color: #78818c;  
@@ -375,6 +375,7 @@ h5 {
 }
 #timezone-selector label {
   font-weight: bold;
+  color: black;
 }
 
 
