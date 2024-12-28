@@ -45,11 +45,11 @@ span {
   width: 60%;
 }
 
-h3 {
+/* h3 {
   padding-top: 2rem;
   font-size: 1.5em;
   text-align: center;
-}
+} */
 
 .img_div {
   max-width: 17%;
@@ -354,4 +354,49 @@ h5 {
 
 .app_form {
   padding-top: 1em;
+}
+
+/* APPLY.CSS or MAIN.CSS */
+#calendar-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 2em auto;        /* center on the page */
+  background-color: #78818c;  
+  border-radius: 8px;      /* optional rounding */
+  padding: 1em;            /* optional padding */
+}
+
+#timezone-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+#timezone-selector label {
+  font-weight: bold;
+}
+
+
+
+
+/* Style URLs within <p> elements */
+p a {
+  color: white; /* Change the text color to white */
+  text-decoration: none; /* Remove underline if not needed */
+}
+
+/* Optional: Add hover effect for better interactivity */
+p a:hover {
+  text-decoration: underline; /* Add underline on hover for better usability */
+}
+/* Style URLs within <p> elements */
+h3 a {
+  color: white; /* Change the text color to white */
+  text-decoration: none; /* Remove underline if not needed */
+}
+
+/* Optional: Add hover effect for better interactivity */
+h3 a:hover {
+  text-decoration: underline; /* Add underline on hover for better usability */
 }

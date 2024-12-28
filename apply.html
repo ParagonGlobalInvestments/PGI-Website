@@ -10,10 +10,14 @@
 
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <link rel="stylesheet" type="text/css" href="css/apply.css" />
-
+  <link rel="stylesheet" type="text/css" href="css/teams.css" />
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
 </head>
 
 <body>
@@ -27,10 +31,367 @@
   </script>
 
   <div class="container">
-    <h3>Official Applications Begin January 2025 Nationally!</h3>
+    <h4>PGI Winter 2025 National Recruitment</h4>
+    <span>
+
+
+      <p>
+        
+        PGI's Winter 2025 National Applications will open on January 13th.
+        To receive updates on the application process,
+        sign up for <a href="https://forms.gle/Hxg3kN72dSV81mpf6">PGI's Interest Form here</a>.
+  
+        Register for <a href="https://signup.com/go/nqJvsor">coffee chats here</a>.
+      </p>
+    </span>
+
+    <br>
+
+
+    <div class="president">
+      <h4 class="leadership">Recruitment Timeline and Links</h4>
+    </div>
+    <div id="timezone-selector">
+      <label for="timezone">Time Zone:</label>
+      <select id="timezone">
+        <option value="America/Los_Angeles">America/Los_Angeles</option>
+        <option value="America/Chicago">America/Chicago</option>
+        <option value="America/New_York" selected>America/New_York</option>
+      </select>
+    </div>
+    <div id="calendar-container"></div>
+
+
+    <div class="president">
+      <h4 class="leadership">Recruitment Team</h4>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-body">
+          <h3>Sohini Banerjee</h3>
+          <span class="title">Co-Head of Recruitment</span>
+          <br><br><span class="title2">University of Chicago</span><br />
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/sohini-banerjee1/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <card class="card-body">
+          <h3>John Otto</h3>
+          <span class="title">Co-Head of Recruitment</span>
+          <br><br><span class="title2">University of Pennsylvania</span><br />
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/john-otto1/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </card>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3>Ann Li</h3>
+          <span class="title">Recruiter</span>
+          <br><br><span class="title2">New York University</span><br />
+
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/annli11225/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <card class="card-body">
+          <h3>Aurora Wang</h3>
+          <span class="title">Recruiter</span>
+          <br><br><span class="title2">Columbia University</span><br />
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/aurorawang15/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </card>
+      </div>
+
+      <div class="card">
+        <card class="card-body">
+          <h3>David Chen</h3>
+          <span class="title">Recruiter</span>
+          <br><br><span class="title2">Columbia University</span><br />
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/davidsongchen/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </card>
+      </div>
+
+      <div class="card">
+        <card class="card-body">
+          <h3>Lucas Lu</h3>
+          <span class="title">Recruiter</span>
+          <br><br><span class="title2">Cornell University</span><br />
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/lucas-l-a820b214b/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </card>
+      </div>
+
+      <div class="card">
+        <card class="card-body">
+          <h3>Nana Agyeman</h3>
+          <span class="title">Recruiter</span>
+          <br><br><span class="title2">Princeton University</span><br />
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/nana-agyeman-554b62168/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </card>
+      </div>
+
+      <div class="card">
+        <card class="card-body">
+          <h3>Daniel Kim</h3>
+          <span class="title">Recruiter</span>
+          <br><br><span class="title2">Princeton University</span><br />
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/danielskim27/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </card>
+      </div>
+
+      <div class="card">
+        <card class="card-body">
+          <h3>Flynn Kelleher</h3>
+          <span class="title">Recruiter</span>
+          <br><br><span class="title2">Cornell University</span><br />
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/flynn-kelleher/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </card>
+      </div>
+
+
+      <div class="card">
+        <card class="card-body">
+          <h3>Jack Stemerman</h3>
+          <span class="title">Recruiter</span>
+          <br><br><span class="title2">Yale University</span><br />
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/jack-stemerman-1768a3211/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </card>
+      </div>
+
+
+      <div class="card">
+        <card class="card-body">
+          <h3>John Yi</h3>
+          <span class="title">Recruiter</span>
+          <br><br><span class="title2">New York University</span><br />
+          <br />
+          <a class="linked_holder" href="https://www.linkedin.com/in/john-hong-yi/" target="_blank">
+            <img class="linkedin" src="images/linkedin.png" alt="" />
+          </a>
+        </card>
+      </div>
+
+    </div>
+
+
+
+    <br><br>
+
   </div>
 
 
+
+
+
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var calendarEl = document.getElementById('calendar-container');
+      var timeZoneSelect = document.getElementById('timezone');
+
+
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        // timeZone: 'America/Chicago',
+        timeZone: timeZoneSelect.value,
+
+        initialView: 'period', // use our custom 2-week view by default
+        views: {
+          period: {
+            type: 'dayGrid',
+            duration: { weeks: 2 },
+          }
+        },
+        height: '320px',
+
+        headerToolbar: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'period,timeGridWeek,timeGridDay'
+        },
+        initialDate: '2025-01-06',
+
+        // Restrict the user to a specific date range
+        validRange: {
+          start: '2025-01-06',
+          end: '2025-01-19'
+        },
+
+        // Sample events
+        events: [
+          {
+            title: 'Info Session I',
+            start: '2025-01-07T18:00:00',
+            end: '2025-01-07T19:00:00',
+            extendedProps: {
+              zoomLink: 'https://uchicago.zoom.us/j/96193913331?pwd=OPKQYTwON158DAbtLZcCpLtRzXHBNS.1&from=addon'
+            }
+          },
+          {
+            title: 'Diversity Event',
+            start: '2025-01-08T18:00:00',
+            end: '2025-01-08T19:00:00',
+            extendedProps: {
+              zoomLink: 'https://uchicago.zoom.us/j/96193913331?pwd=OPKQYTwON158DAbtLZcCpLtRzXHBNS.1&from=addon'
+            }
+
+          },
+          {
+            title: 'Info Session II',
+            start: '2025-01-09T18:00:00',
+            end: '2025-01-09T19:00:00',
+            extendedProps: {
+              zoomLink: 'https://uchicago.zoom.us/j/96193913331?pwd=OPKQYTwON158DAbtLZcCpLtRzXHBNS.1&from=addon'
+            }
+          },
+          {
+            title: 'Scheduled Coffee Chats',
+            start: '2025-01-11T09:00:00',
+            end: '2025-01-11',
+            extendedProps: {
+              zoomLink: 'https://signup.com/go/nqJvsor'
+            }
+          },
+          {
+            title: 'Scheduled Coffee Chats',
+            start: '2025-01-12T09:00:00',
+            end: '2025-01-12',
+            extendedProps: {
+              zoomLink: 'https://signup.com/go/nqJvsor'
+            }
+          },
+          {
+            title: 'Applications Open',
+            start: '2025-01-13T00:00:00',
+            end: '2025-01-13T00:00:00'
+          },
+          {
+            title: 'Scheduled Coffee Chats',
+            start: '2025-01-13T09:00:00',
+            end: '2025-01-13',
+            extendedProps: {
+              zoomLink: 'https://signup.com/go/nqJvsor'
+            }
+          },
+          {
+            title: 'Diversity Event',
+            start: '2025-01-14T18:00:00',
+            end: '2025-01-14T19:00:00',
+            extendedProps: {
+              zoomLink: 'https://uchicago.zoom.us/j/96193913331?pwd=OPKQYTwON158DAbtLZcCpLtRzXHBNS.1&from=addon'
+            }
+          },
+          {
+            title: 'PM and ICOMM Event',
+            start: '2025-01-15T18:00:00',
+            end: '2025-01-15T19:00:00',
+            extendedProps: {
+              zoomLink: 'https://uchicago.zoom.us/j/96193913331?pwd=OPKQYTwON158DAbtLZcCpLtRzXHBNS.1&from=addon'
+            }
+          },
+
+          {
+            title: 'Applications Close',
+            start: '2025-01-17T23:59:59',
+            end: '2025-01-17T23:59:59'
+          },
+        ],
+
+        // open URLs in new tab
+        eventClick: function (info) {
+          info.jsEvent.preventDefault(); // Prevent default if there's a URL
+          var zoomLink = info.event.extendedProps.zoomLink;
+          if (zoomLink) {
+            window.open(zoomLink, '_blank');
+          } else {
+            // alert('No Zoom link for this event.');
+          }
+        }
+      });
+
+      calendar.render();
+
+      let oldTimeZone = calendar.getOption('timeZone');
+      timeZoneSelect.addEventListener('change', function () {
+        const newTimeZone = this.value;
+        calendar.setOption('timeZone', this.value);
+
+        const events = calendar.getEvents();
+
+
+        events.forEach(event => {
+          if (!event.allDay) {
+
+            let start = event.start;
+            let end = event.end;
+
+            let delta = 0;
+            if (oldTimeZone == "America/Los_Angeles" && newTimeZone == "America/Chicago") {
+              delta = 2 * 60 * 60 * 1000;
+            } else if (oldTimeZone == "America/Chicago" && newTimeZone == "America/Los_Angeles") {
+              delta = -2 * 60 * 60 * 1000;
+            } else if (oldTimeZone == "America/Los_Angeles" && newTimeZone == "America/New_York") {
+              delta = 3 * 60 * 60 * 1000;
+            } else if (oldTimeZone == "America/New_York" && newTimeZone == "America/Los_Angeles") {
+              delta = -3 * 60 * 60 * 1000;
+            } else if (oldTimeZone == "America/Chicago" && newTimeZone == "America/New_York") {
+              delta = 1 * 60 * 60 * 1000;
+            } else if (oldTimeZone == "America/New_York" && newTimeZone == "America/Chicago") {
+              delta = -1 * 60 * 60 * 1000;
+            }
+            console.log(newTimeZone);
+            console.log(oldTimeZone);
+
+            if (start) {
+              start = new Date(start.getTime() + delta);
+            }
+            if (end) {
+              end = new Date(end.getTime() + delta);
+            }
+
+            event.setStart(start);
+            event.setEnd(end);
+          }
+        });
+
+        oldTimeZone = newTimeZone;
+
+      });
+    });
+  </script>
+
+  </div>
 </body>
 <div id="footer-placeholder"></div>
 <script>
