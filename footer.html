@@ -9,14 +9,8 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      charset="utf-8"
-    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -39,7 +33,8 @@
         </div>
         <br><br>
         <div class="footer-content">
-            <p>Paragon Global Investments is a registered 501(c)(3) nonprofit. Paragon Global Investments was previously known as Paragon National Group (PNG).</p>
+            <p>Paragon Global Investments is a registered 501(c)(3) nonprofit. Paragon Global Investments was previously
+                known as Paragon National Group (PNG).</p>
             <ul class="socials">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">Who We Are & Curriculum</a></li>
@@ -47,16 +42,20 @@
                 <li><a href="news.html">Publications</a></li>
                 <li><a href="sponsors_and_partners.html">Sponsors</a></li>
                 <li><a href="founders.html">Founders</a></li>
-                <li><a href="team_national.html">Executives & National Committee</a></li>
+                <li><a href="team_national.html">National Committee</a></li>
                 <li><a href="placements.html">Placements</a></li>
                 <li><a href="apply.html">Apply</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="footer-bottom">
-            <p>Paragon Global Investments 2024</p>
+            <p>Paragon Global Investments | <span id="year"></span></p>
         </div>
     </footer>
+    <script>
+        document.querySelector("#year").textContent = new Date().getFullYear();
+    </script>
+
 </body>
 
 </html>
