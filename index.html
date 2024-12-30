@@ -1,62 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-    <title>PGI</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="css/styleguide.css" /> -->
-    <link rel="stylesheet" type="text/css" href="css/globals.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-  </head>
 
-  <body>
-    <div id="nav-placeholder"></div>
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <script>
-      $.get("nav.html", function (data) {
-        $("#nav-placeholder").replaceWith(data);
-      });
-      // placeholder
-    </script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <title>PGI</title>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Montserrat|Quicksand&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/styleguide.css" /> -->
+  <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
 
-    <!-- Main page code -->
-    <div class="intro-section">
-      <div class="intro" id="particles-js">
-        <h1 class="title">Paragon Global Investments</h1>
-        <br /><br />
+<body>
+  <div id="nav-placeholder"></div>
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+    // placeholder
+  </script>
 
-        <h1 class="header">
-          Intersecting Value Investing and Quantitative Finance
-        </h1>
+  <!-- Main page code -->
+  <div class="intro-section">
+    <div class="intro" id="particles-js">
+      <h1 class="title">Paragon Global Investments</h1>
+      <br /><br />
 
-        <p class="desc_club">
-          Student-run intercollegiate investment fund focused on value investing
-          and algorithmic trading
-        </p>
-      </div>
-      <div class="scroll-container" onclick="scrollToAbout()">
-        <!-- Wrapping container -->
-        <div class="scroll-chevron"></div>
-        <!-- V shape -->
-        <div class="scroll-text">Learn More</div>
-      </div>
+      <h1 class="header">
+        Intersecting Value Investing and Quantitative Finance
+      </h1>
+
+      <p class="desc_club">
+        Student-run intercollegiate investment fund focused on value investing
+        and algorithmic trading
+      </p>
     </div>
+    <div class="scroll-container" onclick="scrollToAbout()">
+      <!-- Wrapping container -->
+      <div class="scroll-chevron"></div>
+      <!-- V shape -->
+      <div class="scroll-text">Learn More</div>
+    </div>
+  </div>
 
-    <!-- Code Box -->
+  <!-- Code Box -->
 
-    <!-- <div class="overlap-group8">
+  <!-- <div class="overlap-group8">
       <p class="class-png-def-__ini">
         class PNG:<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;def __init__(self,
         fundamentals, quant):<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.fundamentals
@@ -68,308 +64,286 @@
       </p>
     </div> -->
 
-    <!-- About -->
-    <div class="about-us" id="about">About Us</div>
-    <p class="pngdesc">
-      Paragon Global Investments (formerly PNG) is a student-run intercollegiate
-      investment fund with 8 chapters at the top universities in the United
-      States. We utilize both fundamental and systematic trading strategies to
-      invest into our $40,000 investment fund. Since our inception, we have
-      grown to 300+ active students and every year we receive close to 2,000
-      students interested in joining organization nationally.
+  <!-- About -->
+  <div class="about-us" id="about">About Us</div>
+  <p class="pngdesc">
+    Paragon Global Investments (formerly PNG) is a student-run intercollegiate
+    investment fund with 8 chapters at the top universities in the United
+    States. We utilize both fundamental and systematic trading strategies to
+    invest into our $40,000 investment fund. Since our inception, we have
+    grown to 300+ active students and every year we receive close to 2,000
+    students interested in joining organization nationally.
+  </p>
+
+  <!-- Summary -->
+  <div class="info_sum">
+    <div class="section_sum">
+      <div class="currsec">$40K<br />AUM</div>
+    </div>
+    <div class="section_sum">
+      <div class="currsec">18<br />Sponsors & Partners<br /></div>
+    </div>
+    <div class="section_sum">
+      <div class="currsec">8<br />Chapters</div>
+    </div>
+  </div>
+
+  <div class="about-sponsors">Our Chapters</div>
+
+  <!-- Schools -->
+  <div class="schools">
+    <div class="school_card">
+      <img src="images/brown.png" class="school" alt="" />
+    </div>
+    <div class="school_card">
+      <img src="images/columbiaban.png" class="school Columbia" alt="" />
+    </div>
+    <div class="school_card">
+      <img src="images/cornell.png" class="school Cornell" alt="" />
+    </div>
+    <div class="school_card">
+      <img src="images/NYU.png" class="school NYU" alt="" />
+    </div>
+    <div class="school_card">
+      <img src="images/princeton.svg" class="school" alt="" />
+    </div>
+    <div class="school_card">
+      <img src="images/uchicago.png" class="school" alt="" />
+    </div>
+    <div class="school_card">
+      <img src="images/upenn.png" class="school" alt="" />
+    </div>
+    <div class="school_card">
+      <img src="images/yale.png" class="school" alt="" />
+    </div>
+  </div>
+
+  <!-- Sponsors -->
+  <div class="about-sponsors">Sponsors</div>
+  <div class="sponsors">
+    <div class="sponsors_card">
+      <a href="https://www.citadel.com/" target="_blank"><img src="Companies/Citadel.png" class="sponsor" alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.citadel.com/" target="_blank"><img src="Companies/CitSec.png" class="sponsor" alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.janestreet.com/" target="_blank"><img src="Companies/JaneStreet.png" class="sponsor"
+          alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.deshaw.com/" target="_blank">
+        <img src="Companies/desco.png" class="sponsor" />
+      </a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://imc.com/" target="_blank">
+        <img src="Companies/imc.png" class="sponsor" />
+      </a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://drw.com/" target="_blank"><img src="Companies/drw.png" class="sponsor" alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.kershnertrading.com/#/" target="_blank"><img src="Companies/Kershner.png" class="sponsor"
+          alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.adamsstreetpartners.com/" target="_blank"><img src="Companies/AdamsStreet.png"
+          class="sponsor" alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.arenaco.com/" target="_blank"><img src="Companies/Arena.png" class="sponsor" alt="" /></a>
+    </div>
+  </div>
+
+  <br /><br />
+
+  <div class="about-sponsors">Partners</div>
+  <div class="sponsors">
+    <div class="sponsors_card">
+      <a href="https://www.kirkland.com/" target="_blank"><img src="Companies/kirkland.png" class="sponsor"
+          alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://databento.com/" target="_blank"><img src="Companies/databento.png" class="sponsor" alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.cloudquant.com/" target="_blank"><img src="Companies/CloudQuant.webp" class="sponsor"
+          alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://visiblealpha.com/" target="_blank"><img src="Companies/visiblealpha.png" class="sponsor"
+          alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.bamsec.com/" target="_blank"><img src="Companies/BamSEC.png" class="sponsor" alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.tegus.com/" target="_blank"><img src="Companies/Tegus.png" class="sponsor" alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.elevatecareernetwork.com/" target="_blank"><img src="Companies/Elevate.jpg" class="sponsor"
+          alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.wallstreetoasis.com/" target="_blank"><img src="Companies/WSO.png" class="sponsor"
+          alt="" /></a>
+    </div>
+    <div class="sponsors_card">
+      <a href="https://www.edmundsec.com/" target="_blank"><img src="Companies/EdmundSEC.png" class="sponsor"
+          alt="" /></a>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="overlap-group4">
+    <h1 class="edtitle">Education</h1>
+    <div class="currsec">Value Investment</div>
+    <p class="currdesc">
+      Learn about the basic of accounting, valuation, modeling, and bottom-up
+      analysis of companies. Students will learn to develop value-based
+      investment research on publicly traded companies.
     </p>
+    <div class="currsec">Algorithmic Trading</div>
+    <p class="currdesc">
+      Students will learn about quantitative analysis in python, modern
+      portfolio theory and quantitative portfolio allocation, and how to
+      research, design, and implement systematic algorithmic trading
+      strategies.
+    </p>
+  </div>
 
-    <!-- Summary -->
-    <div class="info_sum">
-      <div class="section_sum">
-        <div class="currsec">$40K<br />AUM</div>
-      </div>
-      <div class="section_sum">
-        <div class="currsec">18<br />Sponsors & Partners<br /></div>
-      </div>
-      <div class="section_sum">
-        <div class="currsec">8<br />Chapters</div>
-      </div>
-    </div>
+  <!-- Investment Strategy -->
 
-    <div class="about-sponsors">Our Chapters</div>
+  <h1 class="investment-strategy">Investment Funds</h1>
 
-    <!-- Schools -->
-    <div class="schools">
-      <div class="school_card">
-        <img src="images/brown.png" class="school" alt="" />
-      </div>
-      <div class="school_card">
-        <img src="images/columbiaban.png" class="school Columbia" alt="" />
-      </div>
-      <div class="school_card">
-        <img src="images/cornell.png" class="school Cornell" alt="" />
-      </div>
-      <div class="school_card">
-        <img src="images/NYU.png" class="school NYU" alt="" />
-      </div>
-      <div class="school_card">
-        <img src="images/princeton.svg" class="school" alt="" />
-      </div>
-      <div class="school_card">
-        <img src="images/uchicago.png" class="school" alt="" />
-      </div>
-      <div class="school_card">
-        <img src="images/upenn.png" class="school" alt="" />
-      </div>
-      <div class="school_card">
-        <img src="images/yale.png" class="school" alt="" />
-      </div>
-    </div>
-
-    <!-- Sponsors -->
-    <div class="about-sponsors">Sponsors</div>
-    <div class="sponsors">
-      <div class="sponsors_card">
-        <a href="https://www.citadel.com/" target="_blank"
-          ><img src="Companies/Citadel.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.citadel.com/" target="_blank"
-          ><img src="Companies/CitSec.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.janestreet.com/" target="_blank"
-          ><img src="Companies/JaneStreet.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.deshaw.com/" target="_blank">
-          <img src="Companies/desco.png" class="sponsor" />
-        </a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://imc.com/" target="_blank">
-          <img src="Companies/imc.png" class="sponsor" />
-        </a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://drw.com/" target="_blank"
-          ><img src="Companies/drw.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.kershnertrading.com/#/" target="_blank"
-          ><img src="Companies/Kershner.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.adamsstreetpartners.com/" target="_blank"
-          ><img src="Companies/AdamsStreet.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.arenaco.com/" target="_blank"
-          ><img src="Companies/Arena.png" class="sponsor" alt=""
-        /></a>
-      </div>
-    </div>
-
-    <br /><br />
-
-    <div class="about-sponsors">Partners</div>
-    <div class="sponsors">
-      <div class="sponsors_card">
-        <a href="https://www.kirkland.com/" target="_blank"
-          ><img src="Companies/kirkland.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://databento.com/" target="_blank"
-          ><img src="Companies/databento.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.cloudquant.com/" target="_blank"
-          ><img src="Companies/CloudQuant.webp" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://visiblealpha.com/" target="_blank"
-          ><img src="Companies/visiblealpha.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.bamsec.com/" target="_blank"
-          ><img src="Companies/BamSEC.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.tegus.com/" target="_blank"
-          ><img src="Companies/Tegus.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.elevatecareernetwork.com/" target="_blank"
-          ><img src="Companies/Elevate.jpg" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.wallstreetoasis.com/" target="_blank"
-          ><img src="Companies/WSO.png" class="sponsor" alt=""
-        /></a>
-      </div>
-      <div class="sponsors_card">
-        <a href="https://www.edmundsec.com/" target="_blank"
-          ><img src="Companies/EdmundSEC.png" class="sponsor" alt=""
-        /></a>
-      </div>
-    </div>
-
-    <!-- Education -->
-    <div class="overlap-group4">
-      <h1 class="edtitle">Education</h1>
-      <div class="currsec">Value Investment</div>
-      <p class="currdesc">
-        Learn about the basic of accounting, valuation, modeling, and bottom-up
-        analysis of companies. Students will learn to develop value-based
-        investment research on publicly traded companies.
-      </p>
-      <div class="currsec">Algorithmic Trading</div>
-      <p class="currdesc">
-        Students will learn about quantitative analysis in python, modern
-        portfolio theory and quantitative portfolio allocation, and how to
-        research, design, and implement systematic algorithmic trading
-        strategies.
-      </p>
-    </div>
-
-    <!-- Investment Strategy -->
-
-    <h1 class="investment-strategy">Investment Funds</h1>
-
-    <div class="wrapper">
-      <div class="side left">
-        <div class="caption">
-          <div class="currsec">Paragon Value</div>
-          <div class="subcaption">
-            <p class="desc_club">
-              The Paragon Value Fund is a well-diversified, long-only fund
-              focused on identifying mispriced assets using a bottom-up,
-              value-based approach. Total portfolio risk and return are
-              optimized through quantitative portfolio allocation measures.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="side right">
-        <div class="caption">
-          <div class="currsec">Paragon Systematic</div>
-          <div class="subcaption">
-            <p class="desc_club">
-              The Paragon Systematic Fund employs systematic algorithmic trading
-              strategies that utilize quantitative analysis of public
-              securities. Students develop algorithms using advanced
-              mathematical analysis to identify strategies with uncorrelated
-              returns.
-            </p>
-          </div>
+  <div class="wrapper">
+    <div class="side left">
+      <div class="caption">
+        <div class="currsec">Paragon Value</div>
+        <div class="subcaption">
+          <p class="desc_club">
+            The Paragon Value Fund is a well-diversified, long-only fund
+            focused on identifying mispriced assets using a bottom-up,
+            value-based approach. Total portfolio risk and return are
+            optimized through quantitative portfolio allocation measures.
+          </p>
         </div>
       </div>
     </div>
 
-    <!-- Placements -->
-
-    <h1 class="placements">Select Placements</h1>
-    <div class="grid-container">
-      <div class="grid-item">
-        <img src="Companies/Goldman Sachs.png" class="grid-img" />
+    <div class="side right">
+      <div class="caption">
+        <div class="currsec">Paragon Systematic</div>
+        <div class="subcaption">
+          <p class="desc_club">
+            The Paragon Systematic Fund employs systematic algorithmic trading
+            strategies that utilize quantitative analysis of public
+            securities. Students develop algorithms using advanced
+            mathematical analysis to identify strategies with uncorrelated
+            returns.
+          </p>
+        </div>
       </div>
-      <div class="grid-item">
-        <img src="Companies/Citadel.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/JaneStreet.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/Morgan Stanley.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/Bridgewater.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/CitSec.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/JP Morgan.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/Point72.svg" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/deshaw.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/Blackstone.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/arrowstreet.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/Optiver.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/Carlyle.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/SIG.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/AQR3.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/Apollo.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/imc.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/flow.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/dodge.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/peak6.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/FiveRings.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/BAM.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/Cubist-Gold.png" class="grid-img" />
-      </div>
-      <div class="grid-item">
-        <img src="Companies/Millennium.png" class="grid-img" />
-      </div>
-
-      <!-- Add more grid-items as needed -->
     </div>
-    <script>
-      function scrollToAbout() {
-        const aboutElement = document.getElementById("about");
-        aboutElement.scrollIntoView({ behavior: "smooth" });
-      }
-    </script>
+  </div>
 
-    <br /><br />
-    <br /><br />
+  <!-- Placements -->
 
-    <div id="footer-placeholder"></div>
-    <script>
-      $.get("footer.html", function (data) {
-        $("#footer-placeholder").replaceWith(data);
-      });
-    </script>
-  </body>
+  <h1 class="placements">Select Placements</h1>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="Companies/Goldman Sachs.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/Citadel.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/JaneStreet.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/Morgan Stanley.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/Bridgewater.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/CitSec.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/JP Morgan.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/Point72.svg" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/deshaw.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/Blackstone.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/arrowstreet.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/Optiver.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/Carlyle.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/SIG.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/AQR3.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/Apollo.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/imc.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/flow.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/dodge.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/peak6.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/FiveRings.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/BAM.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/Cubist-Gold.png" class="grid-img" />
+    </div>
+    <div class="grid-item">
+      <img src="Companies/Millennium.png" class="grid-img" />
+    </div>
+
+    <!-- Add more grid-items as needed -->
+  </div>
+  <script>
+    function scrollToAbout() {
+      const aboutElement = document.getElementById("about");
+      aboutElement.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+
+  <br /><br />
+  <br /><br />
+
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+</body>
+
 </html>
